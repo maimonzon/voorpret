@@ -252,5 +252,9 @@ footer {
 
 .header-scrolled {
   background-color: white;
-  transition: .5s;
+  transition: 1s;
+}
+
+#header {
+  transition: 1s;
 }
