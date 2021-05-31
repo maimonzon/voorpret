@@ -1,0 +1,32 @@
+/*HEADER DEL PROYECTO*/
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1020;
+    left: 0;
+    right: 0;
+    background-color: #4747472d;
+
+    .header__nav {
+        height: 8vh;
+
+        .navbar-collapse {
+            flex-grow: 0;
+
+            ul {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+
+                    &:hover {
+                        color: rgb(255, 255, 255);
+                        background-color: #ffffffc7;
+                        transition: all .5s;
+                    }
+                }
+            }
+        }
+    }
+}    

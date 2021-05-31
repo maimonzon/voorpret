@@ -1,0 +1,44 @@
+/*ARCHIVO INDEX*/
+
+.main__index {
+
+    .main__info {
+
+        .main__box {
+            letter-spacing: .17px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .main__texto {
+                margin-left: 20px;
+            }
+
+            h1, h2 {
+                font-size: 30;
+            }
+
+            p {
+                color: #292f36;
+                font-size: 18px;
+            }
+
+            #tituloUno {
+                color: #30d19b;
+            }
+            
+            #tituloDos {
+                color: #009894;
+            }
+            
+            #tituloTres {
+                color: #00aacd;
+            }
+            
+            #tituloCuatro {
+                color: #005da1;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+/*IMPORT*/
+
+@import "tipografia";
+@import "estilostxt";
+@import "header";
+@import "footer";
+@import "index";
+@import "destinos";
+@import "destinoscontinentes";
+@import "galeria";
+@import "noticias";
+@import "contacto";
+@import "error";
+
+/*VIDEO Y FOTOS - BANNERS*/
+
+.banner {
+    .banner__video {
+        height: 100%;
+        width: 100%;
+    }
+
+    .banner__foto {
+    width: 100%;
+}
+}
+

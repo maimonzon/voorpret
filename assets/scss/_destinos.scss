@@ -1,0 +1,53 @@
+/*HTML DESTINOS*/
+
+.destinos__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    width: 100%;
+
+    .destinos__titulo {
+        margin-bottom: 20px;
+    }
+
+    .destinos__parrafo {
+        width: 50vw;
+        text-align: center;
+    }
+
+    .destinos__map {
+        margin-top: 30px;
+
+        .destinos__africa:hover {
+            fill: #1ed1aa;
+            transition: all .4s;
+        }
+
+        .destinos__asia:hover {
+            fill: #4DCDE3;
+            transition: all .4s;
+        }
+
+        .destinos__oceania:hover {
+            fill: #67aae0;
+            transition: all .4s;
+        }
+
+        .destinos__europa:hover {
+            fill: #30DA68;
+            transition: all .4s;
+        }
+
+        .destinos__americaSur:hover {
+            fill: #38f0d1;
+            transition: all .4s;
+        }
+
+        .destinos__americaNorte:hover {
+            fill: #38f09a;
+            transition: all .4s;
+        }
+    }
+}
