@@ -249,3 +249,8 @@ footer {
 
 .banner .banner__foto {
   width: 100%; }
+
+.header-scrolled {
+  background-color: white;
+  transition: .5s;
+}
