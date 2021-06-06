@@ -55,6 +55,13 @@ header {
             background-color: #ffffffc7;
             transition: all .5s; }
 
+.header-scrolled {
+  background-color: white;
+  transition: 1.5s; }
+
+#header {
+  transition: 2s; }
+
 /*FOOTER DEL PROYECTO*/
 footer {
   color: #292f36;
@@ -248,13 +255,4 @@ footer {
   width: 100%; }
 
 .banner .banner__foto {
-  width: 100%; }
-
-.header-scrolled {
-  background-color: white;
-  transition: 1s;
-}
-
-#header {
-  transition: 1s;
-}
+  height: 100vh; }
