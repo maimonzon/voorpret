@@ -35,6 +35,9 @@
   text-align: center; }
 
 /*HEADER DEL PROYECTO*/
+.div__header {
+  height: 100vh; }
+
 header {
   position: fixed;
   top: 0;
@@ -111,7 +114,7 @@ footer {
     }
 } */
 footer .footer__banner {
-  background-image: url(/img/footer.png);
+  background-image: url("../../img/footer.png");
   background-repeat: no-repeat;
   background-position: bottom; }
 
@@ -285,9 +288,28 @@ footer .footer__copy {
   align-items: center; }
 
 /*VIDEO Y FOTOS - BANNERS*/
-.banner .banner__video {
+.banner {
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  padding: 0;
+  margin: 0; }
 
-.banner .banner__foto {
+.banner__video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.banner__titulo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 7rem;
+  margin-bottom: 50px;
+  color: white; }
+
+.banner__foto {
   height: 100vh; }
