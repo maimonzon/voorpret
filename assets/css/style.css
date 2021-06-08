@@ -63,35 +63,72 @@ header {
   transition: 2s; }
 
 /*FOOTER DEL PROYECTO*/
+/*
 footer {
-  color: #292f36;
-  background-color: #c1ff9b86;
-  font-size: 17px; }
-  footer .footer__banner {
-    background-image: url(/img/footer.png);
-    background-repeat: no-repeat;
-    background-position: bottom; }
-  footer .footer__info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; }
-    footer .footer__info .footer__box {
-      justify-content: center;
-      font-size: 13px;
-      margin-top: 10px; }
-      footer .footer__info .footer__box li {
-        list-style: none; }
-        footer .footer__info .footer__box li a {
-          text-decoration: none;
-          color: #292f36; }
-      footer .footer__info .footer__box p {
-        font-size: 15px;
-        text-align: center; }
-  footer .footer_copyright {
-    display: flex;
-    justify-content: center; }
-    footer .footer_copyright p {
-      font-size: x-small; }
+    color: #292f36;
+    background-color: #c1ff9b86;
+    font-size: 17px;
+
+    .footer__banner {
+        background-image: url(/img/footer.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    
+    .footer__info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .footer__box {
+            justify-content: center; 
+            font-size: 13px;
+            margin-top: 10px;
+
+            li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: #292f36;
+                }
+            }
+
+            p {
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+    }
+    
+    .footer_copyright {
+        display: flex;
+        justify-content: center;
+
+        p {
+        font-size: x-small;
+        }
+    }
+} */
+footer .footer__banner {
+  background-image: url(/img/footer.png);
+  background-repeat: no-repeat;
+  background-position: bottom; }
+
+footer .footer__social a {
+  color: black; }
+
+footer .footer__destinos a {
+  text-decoration: none;
+  color: #494949;
+  font-size: 0.9rem; }
+
+footer .footer__contacto {
+  font-size: 0.9rem;
+  color: #494949; }
+
+footer .footer__copy {
+  font-size: 0.7rem; }
 
 /*ARCHIVO INDEX*/
 .main__index .main__info .main__box {
