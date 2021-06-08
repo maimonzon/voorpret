@@ -30,7 +30,8 @@
 
 <body>
 
-  <header id="header"> <!--Este es el encabezado de mi página-->
+  <div class="div__header">
+    <header id="header"> <!--Este es el encabezado de mi página-->
 
     <nav class="header__nav navbar navbar-expand-lg navbar-light .myNav ">
         <div class="container-fluid">
@@ -62,14 +63,14 @@
 </header>
 
 <section class="banner">
-
   <video class="banner__video" src="../img/voorpretvideo.mp4" autoplay muted loop></video>
-      
+  <h1 class="banner__titulo">Contacto</h1>
 </section>
+  </div>
 
      <section class="contactanos__section">
 
-        <div>
+        <div class="contactanos__section--width">
           <h1 class="contactanos__titulo fontJost muyNegrita mayusculaTotal centrado">¡Contactanos!</h1>
               <p class="contactanos__parrafo fontMonserrat negrita textoN">¿El país al que te interesa viajar no está en la página? ¡Mandanos un mensaje! Intentaremos responderte a la brevedad y ayudarte con toda la información necesaria.</p>
 
@@ -115,12 +116,12 @@
                 <div>¿Suscribirte al newsletter?
                   <input type="checkbox" name="newsletter" value="1"> </div>
                   <br><br>
-                  <input type="reset" value="Borrar">
-                  <input type="submit" value="Enviar">
+                  <input id="buttom__form" type="reset" value="Borrar">
+                  <input id="buttom__form" type="submit" value="Enviar">
               </form>
         </div>
 
-
+        <img src="../img/noticia4.jpg" alt="">
      </section>
 
 
