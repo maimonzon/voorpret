@@ -1,15 +1,10 @@
 /*HTML NOTICIAS*/
 
 .noticias__section {
-    
-    height: 120vh;
+    min-height: 100vh;
 
-    .noticias__titulo {
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-    }
-
-    .noticias__notaTitulo {
-        font-size: 1.5rem;
+    a {
+        text-decoration: none;
+        color: black;
     }
 }

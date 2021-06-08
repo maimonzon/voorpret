@@ -251,12 +251,10 @@ footer .footer__copy {
 
 /*HTML NOTICIAS*/
 .noticias__section {
-  height: 120vh; }
-  .noticias__section .noticias__titulo {
-    margin-top: 3rem;
-    margin-bottom: 3rem; }
-  .noticias__section .noticias__notaTitulo {
-    font-size: 1.5rem; }
+  min-height: 100vh; }
+  .noticias__section a {
+    text-decoration: none;
+    color: black; }
 
 /*HTML CONTACTO*/
 .contactanos__section {
