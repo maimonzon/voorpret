@@ -1,5 +1,5 @@
 /*FOOTER DEL PROYECTO*/
-
+/*
 footer {
     color: #292f36;
     background-color: #c1ff9b86;
@@ -44,5 +44,38 @@ footer {
         p {
         font-size: x-small;
         }
+    }
+} */
+
+footer {
+    .footer__banner {
+        background-image: url(/img/footer.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    .footer__social {
+        
+        a {
+            color: black;
+        }
+    }
+
+    .footer__destinos {
+
+        a {
+            text-decoration: none;
+            color: rgb(73, 73, 73);
+            font-size: 0.9rem;
+        }
+    }
+
+    .footer__contacto {
+        font-size: 0.9rem;
+        color: rgb(73, 73, 73);
+    }
+
+    .footer__copy {
+        font-size: 0.7rem;
     }
 }
