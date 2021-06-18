@@ -249,6 +249,22 @@
   </div>
 </footer>
 
+      <!--BARRA DE NAVEGACIÓN-->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script>
+      $(document).ready(function(){
+        console.log('ready');
+        let scrollVar = 183;
+        $(window).scroll(function(){
+            let x = $(this).scrollTop();
+            if(x > scrollVar){
+                $('#header').addClass('header-scrolled')
+            }else if(x < scrollVar){
+                $('#header').removeClass('header-scrolled')
+            }
+        })
+      })
+      </script>
     <!--Bootstrap con JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
     </body>
