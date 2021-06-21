@@ -1,2 +1,73 @@
-/*MEDIA QUERIES DESTINOS-CONTINENTES*/
+/*MEDIA*/
 
+// Mobile xxxs
+@media (max-width: 280) {
+
+}
+
+// Mobile xxs
+@media (min-width: 281px) and (max-width: 380px) {
+
+        /*Destinos-Continentes*/
+
+        .banner__titulo {
+            font-size: 5rem;
+        }
+
+        .continente__section {
+            .continente__titulo {
+                font-size: 2rem;
+            }
+        }
+
+        .continente__paises {
+            .continente__paistitulo {
+                padding-top: 50px;
+            }
+
+            .continente__infoTitulo {
+                padding-top: 20px;
+                font-size: 1.2rem;
+            }
+
+            .continente__info {
+                font-size: 0.9rem;
+            }
+
+            img {
+                margin-top: -30px;
+                margin-bottom: 20px;
+            }
+        }
+
+        /*HEADER*/
+
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (min-width: 381px) and (max-width: 575.98px) {
+
+
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
