@@ -1,3 +1,27 @@
+/*VIDEO Y FOTOS - BANNERS*/
+.banner {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.banner__videoImagen {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.banner__titulo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 7rem;
+  margin-bottom: 50px;
+  color: white; }
+
 /*IMPORT*/
 /*TIPOGRAFIA*/
 .fontRighteous {
@@ -66,53 +90,6 @@ header {
   transition: 2s; }
 
 /*FOOTER DEL PROYECTO*/
-/*
-footer {
-    color: #292f36;
-    background-color: #c1ff9b86;
-    font-size: 17px;
-
-    .footer__banner {
-        background-image: url(/img/footer.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    
-    .footer__info {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-
-        .footer__box {
-            justify-content: center; 
-            font-size: 13px;
-            margin-top: 10px;
-
-            li {
-                list-style: none;
-
-                a {
-                    text-decoration: none;
-                    color: #292f36;
-                }
-            }
-
-            p {
-                font-size: 15px;
-                text-align: center;
-            }
-        }
-    }
-    
-    .footer_copyright {
-        display: flex;
-        justify-content: center;
-
-        p {
-        font-size: x-small;
-        }
-    }
-} */
 footer .footer__banner {
   background-image: url("../../img/footer.png");
   background-repeat: no-repeat;
@@ -142,11 +119,13 @@ footer .footer__copy {
   justify-content: center; }
   .main__index .main__info .main__box .main__texto {
     margin-left: 20px; }
-  .main__index .main__info .main__box h1, .main__index .main__info .main__box h2 {
-    font-size: 30; }
+  .main__index .main__info .main__box h2 {
+    font-size: 2.5rem; }
   .main__index .main__info .main__box p {
     color: #292f36;
-    font-size: 18px; }
+    font-size: 1.2rem; }
+  .main__index .main__info .main__box .main__animacion {
+    width: 45%; }
   .main__index .main__info .main__box #tituloUno {
     color: #30d19b; }
   .main__index .main__info .main__box #tituloDos {
@@ -200,12 +179,13 @@ footer .footer__copy {
   justify-content: center;
   text-align: center; }
   .continente__section .continente__titulo {
-    margin-top: -50px;
     font-size: 3rem; }
   .continente__section .continente__paisesicon .paises__icon {
     max-width: 100%;
     max-height: 300px;
-    padding: 30px; }
+    padding: 20px;
+    padding-bottom: 20px;
+    width: 60%; }
 
 .continente__paises {
   min-height: 100vh;
@@ -214,17 +194,15 @@ footer .footer__copy {
   justify-content: center;
   text-align: center; }
   .continente__paises .continente__paistitulo {
-    margin-top: -30px;
     padding-bottom: 30px; }
+  .continente__paises .continente__paisButton {
+    padding-top: 40px; }
 
 .color__fondoi {
   background-color: #f8f8f8; }
 
 .color__fondoii {
-  background-color: #e9e9e9; }
-
-.color__fondoiii {
-  background-color: #dadada; }
+  background-color: white; }
 
 /*HTML GALERIA*/
 .section__galeria {
@@ -299,30 +277,21 @@ input#button__form {
   justify-content: center;
   align-items: center; }
 
-/*MEDIA QUERIES DESTINOS-CONTINENTES*/
-/*VIDEO Y FOTOS - BANNERS*/
-.banner {
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  margin: 0; }
-
-.banner__video {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0; }
-
-.banner__titulo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 7rem;
-  margin-bottom: 50px;
-  color: white; }
-
-.banner__foto {
-  height: 100vh; }
+/*MEDIA*/
+@media (min-width: 281px) and (max-width: 380px) {
+  /*Destinos-Continentes*/
+  .banner__titulo {
+    font-size: 5rem; }
+  .continente__section .continente__titulo {
+    font-size: 2rem; }
+  .continente__paises .continente__paistitulo {
+    padding-top: 50px; }
+  .continente__paises .continente__infoTitulo {
+    padding-top: 20px;
+    font-size: 1.2rem; }
+  .continente__paises .continente__info {
+    font-size: 0.9rem; }
+  .continente__paises img {
+    margin-top: -30px;
+    margin-bottom: 20px; }
+  /*HEADER*/ }
