@@ -27,8 +27,9 @@
 
 <body>
 
-  <header id="header"> <!--Este es el encabezado de mi página-->
+  <div class="div__header">
 
+  <header id="header"> <!--Este es el encabezado de mi página-->
     <nav class="header__nav navbar navbar-expand-lg navbar-light .myNav ">
         <div class="container-fluid">
           <a href="../index.html"><img src="../img/logovoorpretsombreado.png" width="100px" alt="Logo VOORPRET"></a>
@@ -56,44 +57,46 @@
           </div>
         </div>
       </nav>
-</header>
+  </header>
 
-<section class="banner">
-<img class="banner__foto" src="../img/portadaafrica.png" alt="">
-</section>
+  <section class="banner">
+    <img class="banner__videoImagen" src="../img/portadaafrica.png" alt="">
+    <h1 class="banner__titulo fontJost muyNegrita mayusculaTotal">ÁFRICA</h1>
+  </section>
 
-<!--SECCIÓN DE ICONOS ÁFRICA
-Al hacer click el button debería redirigir dentro de la página al país-->
+</div>
+
+<!--SECCIÓN DE ICONOS ÁFRICA-->
 <section class="continente__section">
 
   <div class="row justify-content-center">
-    <h1 class="continente__titulo fontJost muyNegrita mayusculaTotal centrado">Continente Africano</h1>
+    <h2 class="continente__titulo fontJost muyNegrita mayusculaTotal centrado">Países africanos</h2>
   </div>
 
   <div class="continente__paisesicon row service__content justify-content-center mt-lg-4">
     <div class="col-9 col-md-7 col-lg-3">
-      <img class="paises__icon" src="../svg/egipto.svg" width="200" height="200" alt="Icon representativo de Egipto">
+      <a href="#egipto"><img class="paises__icon" src="../svg/egipto.svg" alt="Icon representativo de Egipto"></a>
       <span class="row justify-content-center">
         <span class="col-12">
-          <a href="#egipto" class="btn fontJost btn btn-secondary btn-sm">EGIPTO</a>
+          <a href="#egipto" class="btn fontJost btn btn-dark btn-secondary btn-sm">EGIPTO</a>
         </span>
       </span>
     </div>
 
     <div class="col-9 col-md-7 col-lg-3">
-      <img class="paises__icon" src="../svg/sudafrica.svg" width="200" height="200" alt="Icon representativo de Sudáfrica">
+      <a href="#sudafrica"><img class="paises__icon" src="../svg/sudafrica.svg" alt="Icon representativo de Sudáfrica"></a>
       <span class="row justify-content-center">
         <span class="col-12">
-          <a href="#sudafrica" class="btn fontJost btn btn-secondary btn-sm">SUDÁFRICA</a>
+          <a href="#sudafrica" class="btn fontJost btn btn-dark btn-secondary btn-sm">SUDÁFRICA</a>
         </span>
       </span>
     </div>
 
     <div class="col-9 col-md-7 col-lg-3">
-      <img class="paises__icon" src="../svg/marruecos.svg" width="200" height="200" alt="Icon representativo de Marruecos">
+      <a href="#marruecos"><img class="paises__icon" src="../svg/marruecos.svg" alt="Icon representativo de Marruecos"></a>
       <span class="row justify-content-center">
         <span class="col-12">
-          <a href="#marruecos" class="btn fontJost btn btn-secondary btn-sm">MARRUECOS</a>
+          <a href="#marruecos" class="btn fontJost btn btn-dark btn-secondary btn-sm">MARRUECOS</a>
         </span>
       </span>
     </div>
@@ -107,28 +110,32 @@ Al hacer click el button debería redirigir dentro de la página al país-->
 <!--EGIPTO-->
 
 <a name="egipto"></a>
-<section class="continente__paises color__fondoi"> 
+<section class="continente__paises color__fondoi "> 
 
-  <h2 class="continente__paistitulo fontRighteous centrado">¡Bienvenidos a Egipto!</h2>
+  <h3 class="continente__paistitulo fontRighteous centrado">¡Bienvenidos a Egipto!</h3>
 
   <div class="container-fluid">
     <div class="row justify-content-center align-items-center">
 
         <div class="col-12 col-lg-6">
-          <div class="container continente__video">
+          <div class="continente__iframe ratio ratio-16x9">
           <iframe src="https://www.youtube.com/embed/rsv4drcgHys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         </div>
 
         <div class="col-12 col-lg-5">
-            <h2 class="izquierda fontRighteous">El país de los faraones</h2>
-                <p class="justificada fontMonserrat">Con más de cinco mil años, la historia de Egipto es la más larga y documentada del mundo. 
+            <h4 class="izquierda fontRighteous continente__infoTitulo">El país de los faraones</h4>
+                <p class="justificada fontMonserrat continente__info">Con más de cinco mil años, la historia de Egipto es la más larga y documentada del mundo. 
 
                 Los primeros habitantes de Egipto se establecieron en las riberas del Nilo huyendo del desierto. Estos primeros indígenas, aislados y sin enemigos cercanos, eran gobernados por seres "divinos" a los que siguieron dinastías semi heróicas: "los descendientes de Horus".
 
                 Estos habitantes se fueron organizando en provincias (llamadas Nomos) y con su unificación surgieron dos reinos: el Alto y el Bajo Egipto.. </p>
         </div>
         
+        <div class="continente__paisButton">
+          <a target="_blank" href="https://www.egipto.net/" class="fontJost"><img src="../img/icon-egypt.png" alt="" height="60"></a>
+        </div>
+
     </div>
 </div>
 </section>
@@ -138,20 +145,26 @@ Al hacer click el button debería redirigir dentro de la página al país-->
 <a name="sudafrica"></a>
 <section class="continente__paises color__fondoii"> 
 
-  <h2 class="africa__paistitulo fontRighteous centrado">¡Bienvidos a Sudáfrica!</h2>
+  <h3 class="continente__paistitulo fontRighteous centrado">¡Bienvidos a Sudáfrica!</h3>
 
   <div class="container-fluid">
     <div class="row justify-content-center align-items-center">
 
         <div class="col-12 col-lg-6">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/zNx5F8htBvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="continente__iframe ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/zNx5F8htBvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
         </div>
 
         <div class="col-12 col-lg-5">
-            <h2 class="izquierda fontRighteous">El sitio arqueológico más rico en huesos humanos</h2>
-                <p class="justificada fontMonserrat"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos earum in mollitia vero omnis quia! Deserunt aut perspiciatis illum quia neque nemo vel ullam, quidem corrupti ratione eaque quo veniam asperiores nulla, veritatis excepturi a nisi suscipit ipsum odit modi! Rem beatae blanditiis eligendi facilis totam et nemo nobis maxime, qui eos commodi facere nulla quod autem fugiat illum veritatis nesciunt laudantium eius? Nulla, vitae? Sint quisquam aspernatur doloribus ipsam aperiam consectetur fugit! Accusamus facilis nihil ad nesciunt facere dolores fugiat provident dolorem, quia expedita veritatis numquam, harum aliquid vitae illum saepe natus iusto dolore quasi repudiandae molestias repellendus!. </p>
+            <h4 class="continente__infoTitulo izquierda fontRighteous">El sitio arqueológico más rico en huesos humanos</h4>
+                <p class="continente__info justificada fontMonserrat"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos earum in mollitia vero omnis quia! Deserunt aut perspiciatis illum quia neque nemo vel ullam, quidem corrupti ratione eaque quo veniam asperiores nulla, veritatis excepturi a nisi suscipit ipsum odit modi! Rem beatae blanditiis eligendi facilis totam et nemo nobis maxime, qui eos commodi facere nulla quod autem fugiat illum veritatis nesciunt laudantium eius? Nulla, vitae? Sint quisquam aspernatur doloribus ipsam aperiam consectetur fugit! Accusamus facilis nihil ad nesciunt facere dolores fugiat provident dolorem, quia expedita veritatis numquam, harum aliquid vitae illum saepe natus iusto dolore quasi repudiandae molestias repellendus!. </p>
         </div>
         
+        <div class="continente__paisButton">
+          <a target="_blank" href="https://www.lonelyplanet.es/africa/sudafrica" class="fontJost"><img src="../img/icon-southafrica.png" alt="" height="60"></a>
+        </div>
+
     </div>
 </div>
 </section>
@@ -159,22 +172,27 @@ Al hacer click el button debería redirigir dentro de la página al país-->
   <!--MARRUECOS-->
 
 <a name="marruecos"></a>
-<section class="continente__paises color__fondoiii"> 
+<section class="continente__paises color__fondoi"> 
 
-  <h2 class="africa__paistitulo fontRighteous centrado">¡Bienvidos a Marruecos!</h2>
+  <h3 class="continente__paistitulo fontRighteous centrado">¡Bienvidos a Marruecos!</h3>
 
   <div class="container-fluid">
     <div class="row justify-content-center align-items-center">
 
         <div class="col-12 col-lg-6">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/C0oh-o1pY7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="continente__iframe ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/C0oh-o1pY7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
 
         <div class="col-12 col-lg-5">
-            <h2 class="izquierda fontRighteous">El país donde experimentar un vuelo en globo</h2>
-                <p class="justificada fontMonserrat"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos earum in mollitia vero omnis quia! Deserunt aut perspiciatis illum quia neque nemo vel ullam, quidem corrupti ratione eaque quo veniam asperiores nulla, veritatis excepturi a nisi suscipit ipsum odit modi! Rem beatae blanditiis eligendi facilis totam et nemo nobis maxime, qui eos commodi facere nulla quod autem fugiat illum veritatis nesciunt laudantium eius? Nulla, vitae? Sint quisquam aspernatur doloribus ipsam aperiam consectetur fugit! Accusamus facilis nihil ad nesciunt facere dolores fugiat provident dolorem, quia expedita veritatis numquam, harum aliquid vitae illum saepe natus iusto dolore quasi repudiandae molestias repellendus!. </p>
+            <h4 class="continente__infoTitulo izquierda fontRighteous">El país donde experimentar un vuelo en globo</h4>
+                <p class="continente__info justificada fontMonserrat"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos earum in mollitia vero omnis quia! Deserunt aut perspiciatis illum quia neque nemo vel ullam, quidem corrupti ratione eaque quo veniam asperiores nulla, veritatis excepturi a nisi suscipit ipsum odit modi! Rem beatae blanditiis eligendi facilis totam et nemo nobis maxime, qui eos commodi facere nulla quod autem fugiat illum veritatis nesciunt laudantium eius? Nulla, vitae? Sint quisquam aspernatur doloribus ipsam aperiam consectetur fugit! Accusamus facilis nihil ad nesciunt facere dolores fugiat provident dolorem, quia expedita veritatis numquam, harum aliquid vitae illum saepe natus iusto dolore quasi repudiandae molestias repellendus!. </p>
         </div>
         
+        <div class="continente__paisButton">
+          <a target="_blank" href="https://www.visitmorocco.com/es" class="fontJost"><img src="../img/icon-morocco.png" alt="" height="60"></a>
+        </div>
     </div>
 </div>
 </section>
