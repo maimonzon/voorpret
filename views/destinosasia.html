@@ -31,6 +31,8 @@
 
 <body>
 
+  <div class="div__header">
+
     <header id="header"> <!--Este es el encabezado de mi página-->
 
         <nav class="header__nav navbar navbar-expand-lg navbar-light .myNav ">
@@ -63,13 +65,14 @@
     </header>
     
     <section class="banner">
-    
-    <img class="banner__foto" src="../img/portadaasia.png" alt="">
-
+      <img class="banner__videoImagen" src="../img/portadaasia.png" alt="">
+      <h1 class="banner__titulo fontJost muyNegrita mayusculaTotal centrado">Asia</h1>
     </section>
+
+  </div>
     
 <!--SECCIÓN DE ICONOS ASIA-->
-    <section class="continente__section color__fondoi">
+    <section class="continente__section">
     
       <div class="row justify-content-center">
         <h1 class="continente__titulo fontJost muyNegrita mayusculaTotal centrado">Asia</h1>
@@ -77,7 +80,7 @@
     
       <div class="continente__paisesicon row service__content justify-content-center mt-lg-4">
         <div class="col-9 col-md-7 col-lg-3">
-          <img class="paises__icon" src="../svg/japon.svg" width="200" height="200" alt="Icon representativo de Japón">
+          <a href="#japon"><img class="paises__icon" src="../svg/japon.svg" alt="Icon representativo de Japón"></a>
           <span class="row justify-content-center">
             <span class="col-12">
               <a href="#japon" class="btn fontJost btn btn-secondary btn-sm">JAPÓN</a>
@@ -86,7 +89,7 @@
         </div>
     
         <div class="col-9 col-md-7 col-lg-3">
-          <img class="paises__icon" src="../svg/china.svg" width="200" height="200" alt="Icon representativo de China">
+          <a href="#china"><img class="paises__icon" src="../svg/china.svg" alt="Icon representativo de China"></a>
           <span class="row justify-content-center">
             <span class="col-12">
               <a href="#china" class="btn fontJost btn btn-secondary btn-sm">CHINA</a>
@@ -95,7 +98,7 @@
         </div>
     
         <div class="col-9 col-md-7 col-lg-3">
-          <img class="paises__icon" src="../svg/filipinas.svg" width="200" height="200" alt="Icon representativo de Filipinas">
+          <a href="#filipinas"><img class="paises__icon" src="../svg/filipinas.svg" alt="Icon representativo de Filipinas"></a>
           <span class="row justify-content-center">
             <span class="col-12">
               <a href="#filipinas" class="btn fontJost btn btn-secondary btn-sm">FILIPINAS</a>
@@ -111,7 +114,7 @@
 
 <!--JAPÓN-->
 <a name="japon"></a>
-    <section class="continente__paises color__fondoii">
+    <section class="continente__paises color__fondoi">
     
       <h2 class="continente__paistitulo fontRighteous centrado">¡Bienvenidos a Japón!</h2>
     
@@ -119,25 +122,31 @@
         <div class="row justify-content-center align-items-center">
     
             <div class="col-12 col-lg-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/CxuiFNYnEr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="continente__iframe ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/CxuiFNYnEr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </div>
     
             <div class="col-12 col-lg-5">
-                <h2 class="izquierda fontRighteous">El país de los faraones</h2>
-                    <p class="justificada fontMonserrat">Con más de cinco mil años, la historia de Egipto es la más larga y documentada del mundo. 
+                <h2 class="continente__infoTitulo izquierda fontRighteous">El país de los faraones</h2>
+                    <p class="continente__info justificada fontMonserrat">Con más de cinco mil años, la historia de Egipto es la más larga y documentada del mundo. 
     
                     Los primeros habitantes de Egipto se establecieron en las riberas del Nilo huyendo del desierto. Estos primeros indígenas, aislados y sin enemigos cercanos, eran gobernados por seres "divinos" a los que siguieron dinastías semi heróicas: "los descendientes de Horus".
     
                     Estos habitantes se fueron organizando en provincias (llamadas Nomos) y con su unificación surgieron dos reinos: el Alto y el Bajo Egipto.. </p>
             </div>
             
+            <div class="continente__paisButton">
+              <a target="_blank" href="https://www.japan.travel/es/es/" class="fontJost"><img src="../img/icon-japon.png" alt="" height="60"></a>
+            </div>
+
         </div>
     </div>
     </section>
 
 <!--CHINA-->
 <a name="china"></a>
-    <section class="continente__paises color__fondoiii"> 
+    <section class="continente__paises color__fondoii"> 
     
       <h2 class="continente__paistitulo fontRighteous centrado">¡Bienvidos a China!</h2>
     
@@ -145,21 +154,27 @@
         <div class="row justify-content-center align-items-center">
     
             <div class="col-12 col-lg-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/tBNkeXmq4IQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="continente__iframe ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/tBNkeXmq4IQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </div>
     
             <div class="col-12 col-lg-5">
-                <h2 class="izquierda fontRighteous">El país de los faraones</h2>
-                    <p class="justificada fontMonserrat"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos earum in mollitia vero omnis quia! Deserunt aut perspiciatis illum quia neque nemo vel ullam, quidem corrupti ratione eaque quo veniam asperiores nulla, veritatis excepturi a nisi suscipit ipsum odit modi! Rem beatae blanditiis eligendi facilis totam et nemo nobis maxime, qui eos commodi facere nulla quod autem fugiat illum veritatis nesciunt laudantium eius? Nulla, vitae? Sint quisquam aspernatur doloribus ipsam aperiam consectetur fugit! Accusamus facilis nihil ad nesciunt facere dolores fugiat provident dolorem, quia expedita veritatis numquam, harum aliquid vitae illum saepe natus iusto dolore quasi repudiandae molestias repellendus!. </p>
+                <h2 class="continente__infoTitulo izquierda fontRighteous">El país de los faraones</h2>
+                    <p class="continente__info justificada fontMonserrat"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos earum in mollitia vero omnis quia! Deserunt aut perspiciatis illum quia neque nemo vel ullam, quidem corrupti ratione eaque quo veniam asperiores nulla, veritatis excepturi a nisi suscipit ipsum odit modi! Rem beatae blanditiis eligendi facilis totam et nemo nobis maxime, qui eos commodi facere nulla quod autem fugiat illum veritatis nesciunt laudantium eius? Nulla, vitae? Sint quisquam aspernatur doloribus ipsam aperiam consectetur fugit! Accusamus facilis nihil ad nesciunt facere dolores fugiat provident dolorem, quia expedita veritatis numquam, harum aliquid vitae illum saepe natus iusto dolore quasi repudiandae molestias repellendus!. </p>
             </div>
             
+            <div class="continente__paisButton">
+              <a target="_blank" href="http://www.turismochina.org/web/index.php" class="fontJost"><img src="../img/icon-china.png" alt="" height="60"></a>
+            </div>
+
         </div>
     </div>
     </section>
 
 <!--FILIPINAS-->
 <a name="filipinas"></a>
-    <section class="continente__paises"> 
+    <section class="continente__paises color__fondoi"> 
     
       <h2 class="continente__paistitulo fontRighteous centrado">¡Bienvidos a Filipinas!</h2>
     
@@ -167,14 +182,20 @@
         <div class="row justify-content-center align-items-center">
     
             <div class="col-12 col-lg-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZjFzkhrqIZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="continente__iframe ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/ZjFzkhrqIZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </div>
     
             <div class="col-12 col-lg-5">
-                <h2 class="izquierda fontRighteous">El país de los faraones</h2>
-                    <p class="justificada fontMonserrat"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos earum in mollitia vero omnis quia! Deserunt aut perspiciatis illum quia neque nemo vel ullam, quidem corrupti ratione eaque quo veniam asperiores nulla, veritatis excepturi a nisi suscipit ipsum odit modi! Rem beatae blanditiis eligendi facilis totam et nemo nobis maxime, qui eos commodi facere nulla quod autem fugiat illum veritatis nesciunt laudantium eius? Nulla, vitae? Sint quisquam aspernatur doloribus ipsam aperiam consectetur fugit! Accusamus facilis nihil ad nesciunt facere dolores fugiat provident dolorem, quia expedita veritatis numquam, harum aliquid vitae illum saepe natus iusto dolore quasi repudiandae molestias repellendus!. </p>
+                <h2 class="continente__infoTitulo izquierda fontRighteous">El país de los faraones</h2>
+                    <p class="continente__info justificada fontMonserrat"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos earum in mollitia vero omnis quia! Deserunt aut perspiciatis illum quia neque nemo vel ullam, quidem corrupti ratione eaque quo veniam asperiores nulla, veritatis excepturi a nisi suscipit ipsum odit modi! Rem beatae blanditiis eligendi facilis totam et nemo nobis maxime, qui eos commodi facere nulla quod autem fugiat illum veritatis nesciunt laudantium eius? Nulla, vitae? Sint quisquam aspernatur doloribus ipsam aperiam consectetur fugit! Accusamus facilis nihil ad nesciunt facere dolores fugiat provident dolorem, quia expedita veritatis numquam, harum aliquid vitae illum saepe natus iusto dolore quasi repudiandae molestias repellendus!. </p>
             </div>
             
+            <div class="continente__paisButton">
+              <a target="_blank" href="https://filipinasturismo.com/" class="fontJost"><img src="../img/icon-filipinas.png" alt="" height="60"></a>
+            </div>
+
         </div>
     </div>
 </section>

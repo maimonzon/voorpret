@@ -31,6 +31,8 @@
 
 <body>
 
+  <div class="div__header">
+
     <header id="header"> <!--Este es el encabezado de mi página-->
 
         <nav class="header__nav navbar navbar-expand-lg navbar-light .myNav ">
@@ -63,10 +65,11 @@
     </header>
     
     <section class="banner">
-    
-    <img class="banner__foto" src="../img/portadaoceania.png" alt="">
-          
+      <img class="banner__videoImagen" src="../img/portadaoceania.png" alt="">
+      <h1 class="banner__titulo fontJost muyNegrita mayusculaTotal centrado">Oceanía</h1>
     </section>
+
+  </div>
     
     <!--SECCIÓN DE ICONOS OCEANÍA-->
     <section class="continente__section">
@@ -77,7 +80,7 @@
     
       <div class="continente__paisesicon row service__content justify-content-center mt-lg-4">
         <div class="col-9 col-md-7 col-lg-3">
-          <img class="paises__icon" src="../svg/australia.svg" width="200" height="200" alt="Icon representativo de Australia">
+          <a href="#australia"><img class="paises__icon" src="../svg/australia.svg" alt="Icon representativo de Australia"></a>
           <span class="row justify-content-center">
             <span class="col-12">
               <a href="#australia" class="btn fontJost btn btn-secondary btn-sm">AUSTRALIA</a>
@@ -86,7 +89,7 @@
         </div>
     
         <div class="col-9 col-md-7 col-lg-3">
-          <img class="paises__icon" src="../svg/nz.svg" width="200" height="200" alt="Icon representativo de Nueva Zelanda">
+          <a href="#nuezel"><img class="paises__icon" src="../svg/nz.svg" alt="Icon representativo de Nueva Zelanda"></a>
           <span class="row justify-content-center">
             <span class="col-12">
               <a href="#nuezel" class="btn fontJost btn btn-secondary btn-sm">NUEVA ZELANDA</a>
@@ -109,18 +112,24 @@
         <div class="row justify-content-center align-items-center">
     
             <div class="col-12 col-lg-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/IPbzWJNmndY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="continente__iframe ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/IPbzWJNmndY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </div>
     
             <div class="col-12 col-lg-5">
-                <h2 class="izquierda fontRighteous">El país de los faraones</h2>
-                    <p class="justificada fontMonserrat">Con más de cinco mil años, la historia de Egipto es la más larga y documentada del mundo. 
+                <h2 class="continente__infoTitulo izquierda fontRighteous">El país de los faraones</h2>
+                    <p class="continente__info justificada fontMonserrat">Con más de cinco mil años, la historia de Egipto es la más larga y documentada del mundo. 
     
                     Los primeros habitantes de Egipto se establecieron en las riberas del Nilo huyendo del desierto. Estos primeros indígenas, aislados y sin enemigos cercanos, eran gobernados por seres "divinos" a los que siguieron dinastías semi heróicas: "los descendientes de Horus".
     
                     Estos habitantes se fueron organizando en provincias (llamadas Nomos) y con su unificación surgieron dos reinos: el Alto y el Bajo Egipto.. </p>
             </div>
             
+            <div class="continente__paisButton">
+              <a target="_blank" href="https://www.australia.com/en"><img src="../img/icon-australia.png" alt="" height="60"></a>
+            </div>
+
         </div>
     </div>
     </section>
@@ -135,14 +144,20 @@
         <div class="row justify-content-center align-items-center">
     
             <div class="col-12 col-lg-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/IPbzWJNmndY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="continente__iframe ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/IPbzWJNmndY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </div>
     
             <div class="col-12 col-lg-5">
-                <h2 class="izquierda fontRighteous">El país de los faraones</h2>
-                    <p class="justificada fontMonserrat"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos earum in mollitia vero omnis quia! Deserunt aut perspiciatis illum quia neque nemo vel ullam, quidem corrupti ratione eaque quo veniam asperiores nulla, veritatis excepturi a nisi suscipit ipsum odit modi! Rem beatae blanditiis eligendi facilis totam et nemo nobis maxime, qui eos commodi facere nulla quod autem fugiat illum veritatis nesciunt laudantium eius? Nulla, vitae? Sint quisquam aspernatur doloribus ipsam aperiam consectetur fugit! Accusamus facilis nihil ad nesciunt facere dolores fugiat provident dolorem, quia expedita veritatis numquam, harum aliquid vitae illum saepe natus iusto dolore quasi repudiandae molestias repellendus!. </p>
+                <h2 class="continente__infoTitulo izquierda fontRighteous">El país de los faraones</h2>
+                    <p class="continente__info justificada fontMonserrat"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos earum in mollitia vero omnis quia! Deserunt aut perspiciatis illum quia neque nemo vel ullam, quidem corrupti ratione eaque quo veniam asperiores nulla, veritatis excepturi a nisi suscipit ipsum odit modi! Rem beatae blanditiis eligendi facilis totam et nemo nobis maxime, qui eos commodi facere nulla quod autem fugiat illum veritatis nesciunt laudantium eius? Nulla, vitae? Sint quisquam aspernatur doloribus ipsam aperiam consectetur fugit! Accusamus facilis nihil ad nesciunt facere dolores fugiat provident dolorem, quia expedita veritatis numquam, harum aliquid vitae illum saepe natus iusto dolore quasi repudiandae molestias repellendus!. </p>
             </div>
             
+            <div class="continente__paisButton">
+              <a target="_blank" href="https://www.newzealand.com/cl/" class="fontJost"><img src="../img/icon-nuevazelanda.png" alt="" height="60"></a>
+            </div>
+
         </div>
     </div>
 </section>
