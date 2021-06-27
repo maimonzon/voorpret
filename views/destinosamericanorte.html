@@ -1,296 +1,325 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="../svg/world.svg" type="image/gif" sizes="16x16">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="../svg/world.svg" type="image/gif" sizes="16x16" />
         <title>Destinos de América del Norte y Centro</title>
 
-        <meta name="keywords" content="Viaje, Turismo, América, Estados Unidos, Canadá, México">
-        <meta name="description" content="Voorpret, sección de países de América del Norte y Centro.">
+        <meta name="keywords" content="Viaje, Turismo, América, Estados Unidos, Canadá, México" />
+        <meta name="description" content="Voorpret, sección de países de América del Norte y Centro." />
 
         <!--Google Fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Righteous&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Righteous&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap" rel="stylesheet" />
 
         <!--Bootstrap-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous" />
 
         <!--Archivo CSS-->
-        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/style.css" />
 
         <!--FONTAWESOME iconos-->
         <script src="https://kit.fontawesome.com/4926abe3be.js" crossorigin="anonymous"></script>
-</head>
+    </head>
 
+    <body>
+        <div class="div__header">
+            <header id="header">
+                <!--Este es el encabezado de mi página-->
 
-<body>
+                <nav class="header__nav navbar navbar-expand-lg navbar-light .myNav">
+                    <div class="container-fluid">
+                        <a href="../index.html"><img src="../img/logovoorpretsombreado.png" width="100px" alt="Logo de Voorpret" /></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav fontJost mayusculaTotal">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./destinos.html">Destinos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./galeria.html">Galeria</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./noticias.html">Noticias</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
 
-  <div class="div__header">
+            <section class="banner">
+                <img class="banner__videoImagen" src="../img/portadaamericanorte.png" alt="Banner con imagen de América del Norte" />
+                <h1 class="banner__titulo fontJost muyNegrita mayusculaTotal centrado">América <span>centro y norte</span></h1>
+            </section>
+        </div>
 
-    <header id="header"> <!--Este es el encabezado de mi página-->
+        <!--SECCIÓN DE ICONOS AMÉRICA DEL NORTE Y CENTRO-->
+        <a name="paises"></a>
+        <section class="continente__section">
+            <div class="row justify-content-center">
+                <h1 class="continente__titulo fontJost muyNegrita mayusculaTotal centrado">América Norte y Centro</h1>
+            </div>
 
-        <nav class="header__nav navbar navbar-expand-lg navbar-light .myNav ">
+            <!--Canadá-->
+            <div class="continente__paisesicon row service__content justify-content-center mt-lg-4">
+                <div class="col-9 col-md-7 col-lg-3">
+                    <a href="#canada"><img class="paises__icon" src="../svg/canada.svg" alt="Icon representativo de Canadá" /></a>
+                    <span class="row justify-content-center">
+                        <span class="col-12">
+                            <a href="#canada" class="btn fontJost btn btn-secondary btn-sm">CANADÁ</a>
+                        </span>
+                    </span>
+                </div>
+
+                <!--USA-->
+                <div class="col-9 col-md-7 col-lg-3">
+                    <a href="#usa"><img class="paises__icon" src="../svg/usa.svg" alt="Icon representativo de Estados Unidos" /></a>
+                    <span class="row justify-content-center">
+                        <span class="col-12">
+                            <a href="#usa" class="btn fontJost btn btn-secondary btn-sm">ESTADOS UNIDOS</a>
+                        </span>
+                    </span>
+                </div>
+
+                <!--México-->
+                <div class="col-9 col-md-7 col-lg-3">
+                    <a href="#mexico"><img class="paises__icon" src="../svg/mexico.svg" alt="Icon representativo de México" /></a>
+                    <span class="row justify-content-center">
+                        <span class="col-12">
+                            <a href="#mexico" class="btn fontJost btn btn-secondary btn-sm">MÉXICO</a>
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!--COMIENZA SECCIÓN DE CADA PAÍS-->
+
+        <!--CANADÁ-->
+        <a name="canada"></a>
+        <section class="continente__paises color__fondoi">
+            <h2 class="continente__paistitulo fontRighteous centrado">¡Bienvenidos a Canadá!</h2>
+
             <div class="container-fluid">
-              <a href="../index.html"><img src="../img/logovoorpretsombreado.png" width="100px" alt="Logo de Voorpret"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav fontJost mayusculaTotal">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="./destinos.html">Destinos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./galeria.html">Galeria</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./noticias.html">Noticias</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-    
-    <section class="banner">
-      <img class="banner__videoImagen" src="../img/portadaamericanorte.png" alt="">
-      <h1 class="banner__titulo fontJost muyNegrita mayusculaTotal centrado">América <span>centro y norte</span></h1>
-    </section>
-  
-  </div>
-    
-    <!--SECCIÓN DE ICONOS AMÉRICA DEL NORTE Y CENTRO-->
-  <a name="paises"></a>
-    <section class="continente__section">
-    
-      <div class="row justify-content-center">
-        <h1 class="continente__titulo fontJost muyNegrita mayusculaTotal centrado">América Norte y Centro</h1>
-      </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <div class="continente__iframe ratio ratio-16x9">
+                            <iframe
+                                src="https://www.youtube.com/embed/BHdIQy00_p4"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+                    </div>
 
-  <!--Canadá-->
-      <div class="continente__paisesicon row service__content justify-content-center mt-lg-4">
-        <div class="col-9 col-md-7 col-lg-3">
-          <a href="#canada"><img class="paises__icon" src="../svg/canada.svg" alt="Icon representativo de Canadá"></a>
-          <span class="row justify-content-center">
-            <span class="col-12">
-              <a href="#canada" class="btn fontJost btn btn-secondary btn-sm">CANADÁ</a>
-            </span>
-          </span>
+                    <div class="col-12 col-lg-5">
+                        <h2 class="continente__infoTitulo izquierda fontRighteous">El país de las montañas rocosas</h2>
+                        <p class="continente__info justificada fontMonserrat">
+                            Resulta casi imposible describir con palabras la belleza y la tremenda variedad paisajística de un país como este. Canadá varía entre la explosividad de colores en primavera y verano, a los glaciares y las
+                            montañas nevadas del invierno. La naturaleza en Canadá nos brinda uno de los mayores espectáculos de la naturaleza.Junto a este impactante paisaje natural, ciudades como Vancouver, Montreal, Toronto, Edmonton,
+                            Queben o Victoria, dan este punto de modernidad y el carácter cosmopolita. A su alrededor, pequeños pueblos pintorescos, anclados en las bahías, con casitas de madera de colores. Canadá es también un país de gran
+                            historia y un profundo sentido cultural.
+                        </p>
+
+                        <p class="continente__verMas fontMonserrat">Para más información, haga click en la bandera.</p>
+                    </div>
+
+                    <div class="continente__paisButton">
+                        <a target="_blank" href="https://www.lonelyplanet.es/america-del-norte-y-central/canada" class="fontJost"><img src="../img/icon-canada.png" alt="Bandera de Canadá" height="60" /></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--ESTADOS UNIDOS-->
+
+        <a name="usa"></a>
+        <section class="continente__paises color__fondoii">
+            <h2 class="continente__paistitulo fontRighteous centrado">¡Bienvidos a Estados Unidos!</h2>
+
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <div class="continente__iframe ratio ratio-16x9">
+                            <iframe
+                                src="https://www.youtube.com/embed/b7FNvq11CEw"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-5">
+                        <h2 class="continente__infoTitulo izquierda fontRighteous">El país de las 50 estrellas</h2>
+                        <p class="continente__info justificada fontMonserrat">
+                            Los lugares turísticos de Estados Unidos son de lo más variado. Con una geografía tan extensa no es difícil encontrar destinos completamente distintos unos de otros. Durante los viajes a Estados Unidos podrá
+                            recorrer su territorio de Este a Oeste, haciendo parada en las ciudades más relevantes. Además tendrá la ocasión de admirar los paisajes más impresionantes del país. Una de las propuestas de viaje es adentrarse
+                            en la Costa Este del país. Aquí podrá visitar ciudades tan importantes como Nueva York, Philadelphia, Washington o Boston. Otra opción al viajar a Estados Unidos es recorrer la Costa Oeste del país, que alberga
+                            ciudades con grandes propuestas de ocio y bellos paisajes naturales.
+                        </p>
+
+                        <p class="continente__verMas fontMonserrat">Para más información, haga click en la bandera.</p>
+                    </div>
+
+                    <div class="continente__paisButton">
+                        <a target="_blank" href="https://www.visittheusa.mx/" class="fontJost"><img src="../img/icon-usa.png" alt="Bandera de Estados Unidos" height="60" /></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--MÉXICO-->
+
+        <a name="mexico"></a>
+        <section class="continente__paises color__fondoi">
+            <h3 class="continente__paistitulo fontRighteous centrado">¡Bienvidos a México!</h3>
+
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <div class="continente__iframe ratio ratio-16x9">
+                            <iframe
+                                src="https://www.youtube.com/embed/_gWGwPp09CA"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-5">
+                        <h4 class="continente__infoTitulo izquierda fontRighteous">El país de los aztecas y mayas</h4>
+                        <p class="continente__info justificada fontMonserrat">
+                            Es muy complicado definir la inmensidad de México en pocas palabras, Se necesita para conocer su gigantesca capital de DF, llena de cultura y monumentos. Desde el Zócalo hasta el parque de Chapultepec, Coyoacán
+                            el barrio de la cultura y de Frida Kahlo, Xochimilco y sus canales, los museos, monumentos y mercados. y la visita obligada a las pirámides de Teotihuacan. Al norte el México colonial, Puebla, Guadalajara,
+                            Guanajuato, el desierto de Sonora y la península de California. Al este Veracruz y el golfo. Al oeste Acapulco, Oaxaca y las playas del Pacífico. Y al sur la Riviera Maya y las pirámides de Chichén-Itzá, Tulúm y
+                            Cobá en Yucatán, Palenque en Chiapas, los cenotes, y las selvas centroamericanas…
+                        </p>
+
+                        <p class="continente__verMas fontMonserrat">Para más información, haga click en la bandera.</p>
+                    </div>
+
+                    <div class="continente__paisButton">
+                        <a target="_blank" href="https://www.visitmexico.com/" class="fontJost"><img src="../img/icon-mexico.png" alt="Bandera de México" height="60" /></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Button up-->
+        <div>
+            <a href="#paises" class="button__up"> <i class="fas fa-chevron-circle-up fa-2x"></i> </a>
         </div>
 
-  <!--USA-->
-        <div class="col-9 col-md-7 col-lg-3">
-          <a href="#usa"><img class="paises__icon" src="../svg/usa.svg" alt="Icon representativo de Estados Unidos"></a>
-          <span class="row justify-content-center">
-            <span class="col-12">
-              <a href="#usa" class="btn fontJost btn btn-secondary btn-sm">ESTADOS UNIDOS</a>
-            </span>
-          </span>
-        </div>
+        <!--INICIO DEL FOOTER-->
+        <footer class="bg-white">
+            <div class="footer__banner">
+                <div class="container py-5">
+                    <div class="row py-4">
+                        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                            <img src="../img/logovoorpretnombre.png" alt="Logo de Voorpret" width="230" class="mb-3" />
+                            <h6 class="text-uppercase font-weight-bold mb-4 fontJost">Newsletter</h6>
+                            <div class="p-1 rounded border">
+                                <div class="input-group">
+                                    <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0" />
+                                    <div class="input-group-append">
+                                        <button id="button-addon1" type="submit" class="btn"><i class="fa fa-paper-plane"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="footer__social list-inline mt-4">
+                                <li class="list-inline-item">
+                                    <a href="https://twitter.com" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://fb.com" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://instagram.com" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://https://www.pinterest.com/" target="_blank" title="pinterest"><i class="fa fa-pinterest"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 offset-md-1">
+                            <h6 class="text-uppercase font-weight-bold mb-4 fontJost">Destinos</h6>
+                            <ul class="footer__destinos list-unstyled mb-0">
+                                <li class="mb-2">
+                                    <a href="./destinosamericanorte.html" class="fontRighteous"><i class="fas fa-globe-americas"></i> América Norte y Central</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="./destinosamericasur.html" class="fontRighteous"><i class="fas fa-globe-americas"></i> América Sur</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="./destinoseuropa.html" class="fontRighteous"><i class="fas fa-globe-europe"></i> Europa</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="./destinosasia.html" class="fontRighteous"><i class="fas fa-globe-asia"></i> Asia</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="./destinosoceania.html" class="fontRighteous"><i class="fas fa-globe-asia"></i> Oceanía</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="./destinosafrica.html" class="fontRighteous"><i class="fas fa-globe-africa"></i> África</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 offset-md-1">
+                            <h6 class="text-uppercase font-weight-bold mb-4 fontJost">Contacto</h6>
+                            <ul class="footer__contacto list-unstyled mb-0 fontRighteous">
+                                <li class="mb-2"><i class="fas fa-envelope-open-text fa-lg"></i> voorpret@gmail.com</li>
+                                <li class="mb-2"><i class="fas fa-comments fa-lg"></i> +5491168794571</li>
+                                <li class="mb-2"><i class="fas fa-map-marked-alt fa-lg"></i> Buenos Aires, Argentina</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-  <!--México-->
-        <div class="col-9 col-md-7 col-lg-3">
-          <a href="#mexico"><img class="paises__icon" src="../svg/mexico.svg" alt="Icon representativo de México"></a>
-          <span class="row justify-content-center">
-            <span class="col-12">
-              <a href="#mexico" class="btn fontJost btn btn-secondary btn-sm">MÉXICO</a>
-            </span>
-          </span>
-        </div>
-    
-      </div>
-    
-    </section>
-
-<!--COMIENZA SECCIÓN DE CADA PAÍS-->
-
-<!--CANADÁ-->
-<a name="canada"></a>
-    <section class="continente__paises color__fondoi"> 
-
-      <h2 class="continente__paistitulo fontRighteous centrado">¡Bienvenidos a Canadá!</h2>
-    
-      <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-    
-            <div class="col-12 col-lg-6">
-              <div class="continente__iframe ratio ratio-16x9">
-                <iframe src="https://www.youtube.com/embed/BHdIQy00_p4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>                
+                <!-- Copyrights -->
+                <div>
+                    <div class="footer__copy container text-center">
+                        <p class="mb-0 py-2 fontJost mayusculaTotal">All rights reserved by ©VOORPRET 2021</p>
+                    </div>
+                </div>
             </div>
-    
-            <div class="col-12 col-lg-5">
-                <h2 class="continente__infoTitulo izquierda fontRighteous">El país de las montañas rocosas</h2>
-                    <p class="continente__info justificada fontMonserrat">Resulta casi imposible describir con palabras la belleza y la tremenda variedad paisajística de un país como este. Canadá varía entre la explosividad de colores en primavera y verano, a los glaciares y las montañas nevadas del invierno.
+        </footer>
 
-                    La naturaleza en Canadá nos brinda uno de los mayores espectáculos de la naturaleza.Junto a este impactante paisaje natural, ciudades como Vancouver, Montreal, Toronto, Edmonton, Queben o Victoria, dan este punto de modernidad y el carácter cosmopolita. A su alrededor, pequeños pueblos pintorescos, anclados en las bahías, con casitas de madera de colores. Canadá es también un país de gran historia y un profundo sentido cultural. </p>
-
-                    <p class="continente__verMas fontMonserrat">Para más información, haga click en la bandera.</p>
-            </div>
-
-            <div class="continente__paisButton">
-              <a target="_blank" href="https://www.lonelyplanet.es/america-del-norte-y-central/canada" class="fontJost"><img src="../img/icon-canada.png" alt="" height="60"></a>
-            </div>
-            
-        </div>
-    </div>
-    </section>
-
-<!--ESTADOS UNIDOS-->
-
-<a name="usa"></a>
-    <section class="continente__paises color__fondoii"> 
-    
-      <h2 class="continente__paistitulo fontRighteous centrado">¡Bienvidos a Estados Unidos!</h2>
-    
-      <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-    
-            <div class="col-12 col-lg-6">
-              <div class="continente__iframe ratio ratio-16x9">
-                <iframe src="https://www.youtube.com/embed/b7FNvq11CEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-            </div>
-    
-            <div class="col-12 col-lg-5">
-                <h2 class="continente__infoTitulo izquierda fontRighteous">El país de las 50 estrellas</h2>
-                    <p class="continente__info justificada fontMonserrat"> Los lugares turísticos de Estados Unidos son de lo más variado. Con una geografía tan extensa no es difícil encontrar destinos completamente distintos unos de otros. Durante los viajes a Estados Unidos podrá recorrer su territorio de Este a Oeste, haciendo parada en las ciudades más relevantes. Además tendrá la ocasión de admirar los paisajes más impresionantes del país.
-                    Una de las propuestas de viaje es adentrarse en la Costa Este del país. Aquí podrá visitar ciudades tan importantes como Nueva York, Philadelphia, Washington o Boston. Otra opción al viajar a Estados Unidos es recorrer la Costa Oeste del país, que alberga ciudades con grandes propuestas de ocio y bellos paisajes naturales.</p>
-
-                    <p class="continente__verMas fontMonserrat">Para más información, haga click en la bandera.</p>
-            </div>
-
-            <div class="continente__paisButton">
-              <a target="_blank" href="https://www.visittheusa.mx/" class="fontJost"><img src="../img/icon-usa.png" alt="" height="60"></a>
-            </div>
-
-        </div>
-    </div>
-  </section>
-
-<!--MÉXICO-->
-
-<a name="mexico"></a>
-    <section class="continente__paises color__fondoi">
-    
-      <h3 class="continente__paistitulo fontRighteous centrado">¡Bienvidos a México!</h3>
-    
-      <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-    
-            <div class="col-12 col-lg-6">
-              <div class="continente__iframe ratio ratio-16x9">
-                <iframe src="https://www.youtube.com/embed/_gWGwPp09CA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-            </div>
-    
-            <div class="col-12 col-lg-5">
-                <h4 class="continente__infoTitulo izquierda fontRighteous">El país de los aztecas y mayas</h4>
-                    <p class="continente__info justificada fontMonserrat"> Es muy complicado definir la inmensidad de México en pocas palabras, Se necesita para conocer su gigantesca capital de DF, llena de cultura y monumentos. Desde el Zócalo hasta el parque de Chapultepec, Coyoacán el barrio de la cultura y de Frida Kahlo, Xochimilco y sus canales, los museos, monumentos y mercados. y la visita obligada a las pirámides de Teotihuacan.
-
-                    Al norte el México colonial, Puebla, Guadalajara, Guanajuato, el desierto de Sonora y la península de California. Al este Veracruz y el golfo. Al oeste Acapulco, Oaxaca y las playas del Pacífico. Y al sur la Riviera Maya y las pirámides de Chichén-Itzá, Tulúm y Cobá en Yucatán, Palenque en Chiapas, los cenotes, y las selvas centroamericanas… </p>
-
-                    <p class="continente__verMas fontMonserrat">Para más información, haga click en la bandera.</p>
-            </div>
-            
-            <div class="continente__paisButton">
-              <a target="_blank" href="https://www.visitmexico.com/" class="fontJost"><img src="../img/icon-mexico.png" alt="" height="60"></a>
-            </div>
-
-        </div>
-    </div>
-    </section>
-
-<!--Button up-->
-<div>
-  <a href="#paises" class="button__up"> <i class="fas fa-chevron-circle-up fa-2x"></i> </a>
-  </div>
-
-<!--INICIO DEL FOOTER-->
-<footer class="bg-white">
-  <div class="footer__banner">
-    <div class="container py-5">
-      <div class="row py-4">
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="../img/logovoorpretnombre.png" alt="" width="230" class="mb-3">
-          <h6 class="text-uppercase font-weight-bold mb-4 fontJost">Newsletter</h6>
-          <div class="p-1 rounded border">
-            <div class="input-group">
-              <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
-              <div class="input-group-append">
-                <button id="button-addon1" type="submit" class="btn"><i class="fa fa-paper-plane"></i></button>
-              </div>
-            </div>
-          </div>
-          <ul class="footer__social list-inline mt-4">
-            <li class="list-inline-item"><a href="https://twitter.com" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="https://fb.com" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="https://instagram.com" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="https://https://www.pinterest.com/" target="_blank" title="pinterest"><i class="fa fa-pinterest"></i></a></li>
-          </ul>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 offset-md-1">
-          <h6 class="text-uppercase font-weight-bold mb-4 fontJost">Destinos</h6>
-          <ul class="footer__destinos list-unstyled mb-0">
-            <li class="mb-2"><a href="./destinosamericanorte.html" class="fontRighteous"><i class="fas fa-globe-americas"></i>  América Norte y Central</a></li>
-            <li class="mb-2"><a href="./destinosamericasur.html" class="fontRighteous"><i class="fas fa-globe-americas"></i>  América Sur</a></li>
-            <li class="mb-2"><a href="./destinoseuropa.html" class="fontRighteous"><i class="fas fa-globe-europe"></i>  Europa</a></li>
-            <li class="mb-2"><a href="./destinosasia.html" class="fontRighteous"><i class="fas fa-globe-asia"></i>  Asia</a></li>
-            <li class="mb-2"><a href="./destinosoceania.html" class="fontRighteous"><i class="fas fa-globe-asia"></i>  Oceanía</a></li>
-            <li class="mb-2"><a href="./destinosafrica.html" class="fontRighteous"><i class="fas fa-globe-africa"></i>  África</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 offset-md-1">
-          <h6 class="text-uppercase font-weight-bold mb-4 fontJost">Contacto</h6>
-          <ul class="footer__contacto list-unstyled mb-0 fontRighteous">
-            <li class="mb-2"> <i class="fas fa-envelope-open-text fa-lg"></i> voorpret@gmail.com </li>
-            <li class="mb-2"> <i class="fas fa-comments fa-lg"></i> +5491168794571</li>
-            <li class="mb-2"> <i class="fas fa-map-marked-alt fa-lg"></i> Buenos Aires, Argentina </li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- Copyrights -->
-    <div>
-      <div class="footer__copy container text-center">
-        <p class="mb-0 py-2 fontJost mayusculaTotal">All rights reserved by ©VOORPRET 2021</p>
-      </div>
-    </div>
-  </div>
-</footer>
-
-      <!--BARRA DE NAVEGACIÓN-->
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-      <script>
-      $(document).ready(function(){
-        console.log('ready');
-        let scrollVar = 183;
-        $(window).scroll(function(){
-            let x = $(this).scrollTop();
-            if(x > scrollVar){
-                $('#header').addClass('header-scrolled')
-            }else if(x < scrollVar){
-                $('#header').removeClass('header-scrolled')
-            }
-        })
-      })
-      </script>
-    <!--Bootstrap con JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-
-</body>
-
-
+        <!--BARRA DE NAVEGACIÓN-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function () {
+                console.log("ready");
+                let scrollVar = 183;
+                $(window).scroll(function () {
+                    let x = $(this).scrollTop();
+                    if (x > scrollVar) {
+                        $("#header").addClass("header-scrolled");
+                    } else if (x < scrollVar) {
+                        $("#header").removeClass("header-scrolled");
+                    }
+                });
+            });
+        </script>
+        <!--Bootstrap con JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    </body>
 </html>

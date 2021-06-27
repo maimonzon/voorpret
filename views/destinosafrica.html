@@ -1,294 +1,319 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="../svg/world.svg" type="image/gif" sizes="16x16">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="../svg/world.svg" type="image/gif" sizes="16x16" />
         <title>Sección de destinos: África</title>
 
         <!--Google Fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Righteous&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Righteous&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap" rel="stylesheet" />
 
         <!--Bootstrap-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous" />
 
         <!--Archivo CSS-->
-        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/style.css" />
 
         <!--FONTAWESOME iconos-->
         <script src="https://kit.fontawesome.com/4926abe3be.js" crossorigin="anonymous"></script>
+    </head>
 
-</head>
+    <body>
+        <div class="div__header">
+            <header id="header">
+                <!--Este es el encabezado de mi página-->
+                <nav class="header__nav navbar navbar-expand-lg navbar-light .myNav">
+                    <div class="container-fluid">
+                        <a href="../index.html"><img src="../img/logovoorpretsombreado.png" width="100px" alt="Logo VOORPRET" /></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav fontJost mayusculaTotal">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="./destinos.html">Destinos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./galeria.html">Galeria</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./noticias.html">Noticias</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
 
-<body>
+            <section class="banner">
+                <img class="banner__videoImagen" src="../img/portadaafrica.png" alt="Banner con imagen de África" />
+                <h1 class="banner__titulo fontJost muyNegrita mayusculaTotal centrado">África</h1>
+            </section>
+        </div>
 
-  <div class="div__header">
-
-    <header id="header"> <!--Este es el encabezado de mi página-->
-      <nav class="header__nav navbar navbar-expand-lg navbar-light .myNav ">
-          <div class="container-fluid">
-            <a href="../index.html"><img src="../img/logovoorpretsombreado.png" width="100px" alt="Logo VOORPRET"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav fontJost mayusculaTotal">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="./destinos.html">Destinos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./galeria.html">Galeria</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./noticias.html">Noticias</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contacto.html">Contacto</a>
-                </li>
-              </ul>
+        <!--SECCIÓN DE ICONOS ÁFRICA-->
+        <a name="paises"></a>
+        <section class="continente__section">
+            <div class="row justify-content-center">
+                <h2 class="continente__titulo fontJost muyNegrita mayusculaTotal centrado">Países africanos</h2>
             </div>
-          </div>
-        </nav>
-    </header>
 
-    <section class="banner">
-      <img class="banner__videoImagen" src="../img/portadaafrica.png" alt="">
-      <h1 class="banner__titulo fontJost muyNegrita mayusculaTotal centrado">África</h1>
-    </section>
+            <!--Egipto-->
+            <div class="continente__paisesicon row service__content justify-content-center mt-lg-4">
+                <div class="col-9 col-md-7 col-lg-3">
+                    <a href="#egipto"><img class="paises__icon" src="../svg/egipto.svg" alt="Icon representativo de Egipto" /></a>
+                    <span class="row justify-content-center">
+                        <span class="col-12">
+                            <a href="#egipto" class="btn fontJost btn btn-dark btn-secondary btn-sm">EGIPTO</a>
+                        </span>
+                    </span>
+                </div>
 
-  </div>
+                <!--Sudáfrica-->
+                <div class="col-9 col-md-7 col-lg-3">
+                    <a href="#sudafrica"><img class="paises__icon" src="../svg/sudafrica.svg" alt="Icon representativo de Sudáfrica" /></a>
+                    <span class="row justify-content-center">
+                        <span class="col-12">
+                            <a href="#sudafrica" class="btn fontJost btn btn-dark btn-secondary btn-sm">SUDÁFRICA</a>
+                        </span>
+                    </span>
+                </div>
 
-<!--SECCIÓN DE ICONOS ÁFRICA-->
-<a name="paises"></a>
-<section class="continente__section">
-
-  <div class="row justify-content-center">
-    <h2 class="continente__titulo fontJost muyNegrita mayusculaTotal centrado">Países africanos</h2>
-  </div>
-
-  <!--Egipto-->
-  <div class="continente__paisesicon row service__content justify-content-center mt-lg-4">
-    <div class="col-9 col-md-7 col-lg-3">
-      <a href="#egipto"><img class="paises__icon" src="../svg/egipto.svg" alt="Icon representativo de Egipto"></a>
-      <span class="row justify-content-center">
-        <span class="col-12">
-          <a href="#egipto" class="btn fontJost btn btn-dark btn-secondary btn-sm">EGIPTO</a>
-        </span>
-      </span>
-    </div>
-
-  <!--Sudáfrica-->
-    <div class="col-9 col-md-7 col-lg-3">
-      <a href="#sudafrica"><img class="paises__icon" src="../svg/sudafrica.svg" alt="Icon representativo de Sudáfrica"></a>
-      <span class="row justify-content-center">
-        <span class="col-12">
-          <a href="#sudafrica" class="btn fontJost btn btn-dark btn-secondary btn-sm">SUDÁFRICA</a>
-        </span>
-      </span>
-    </div>
-
-  <!--Marruecos-->
-    <div class="col-9 col-md-7 col-lg-3">
-      <a href="#marruecos"><img class="paises__icon" src="../svg/marruecos.svg" alt="Icon representativo de Marruecos"></a>
-      <span class="row justify-content-center">
-        <span class="col-12">
-          <a href="#marruecos" class="btn fontJost btn btn-dark btn-secondary btn-sm">MARRUECOS</a>
-        </span>
-      </span>
-    </div>
-
-  </div>
-
-</section>
-
-<!--COMIENZA SECCIÓN DE CADA PAÍS-->
-
-<!--EGIPTO-->
-<a name="egipto"></a>
-<section class="continente__paises color__fondoi "> 
-
-  <h3 class="continente__paistitulo fontRighteous centrado">¡Bienvenidos a Egipto!</h3>
-
-  <div class="container-fluid">
-    <div class="row justify-content-center align-items-center">
-
-        <div class="col-12 col-lg-6">
-          <div class="continente__iframe ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/rsv4drcgHys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-      </div>
-
-        <div class="col-12 col-lg-5">
-            <h4 class="izquierda fontRighteous continente__infoTitulo">El país de los faraones</h4>
-                <p class="justificada fontMonserrat continente__info">Con más de cinco mil años, la historia de Egipto es la más larga y documentada del mundo. 
-
-                Los primeros habitantes de Egipto se establecieron en las riberas del Nilo huyendo del desierto. Estos primeros indígenas, aislados y sin enemigos cercanos, eran gobernados por seres "divinos" a los que siguieron dinastías semi heróicas: "los descendientes de Horus".
-
-                Estos habitantes se fueron organizando en provincias (llamadas Nomos) y con su unificación surgieron dos reinos: el Alto y el Bajo Egipto. </p>
-
-                <p class="continente__verMas fontMonserrat">Para más información, haga click en la bandera.</p>
-        </div>
-        
-        <div class="continente__paisButton">
-          <a target="_blank" href="https://www.egipto.net/" class="fontJost"><img src="../img/icon-egypt.png" alt="" height="60"></a>
-        </div>
-
-    </div>
-</div>
-</section>
-
-<!--SUDÁFRICA-->
-
-<a name="sudafrica"></a>
-<section class="continente__paises color__fondoii"> 
-
-  <h3 class="continente__paistitulo fontRighteous centrado">¡Bienvidos a Sudáfrica!</h3>
-
-  <div class="container-fluid">
-    <div class="row justify-content-center align-items-center">
-
-        <div class="col-12 col-lg-6">
-          <div class="continente__iframe ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/zNx5F8htBvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-
-        <div class="col-12 col-lg-5">
-            <h4 class="continente__infoTitulo izquierda fontRighteous">Conocida como la Nación Arcoíris</h4>
-                <p class="continente__info justificada fontMonserrat"> Si hay un país en el mundo que se caracteriza por su fascinante diversidad cultural y geográfica, ese es Sudáfrica. Conocida como la Nación del Arcoíris por la diversidad que acuna en todo aspecto, Sudáfrica tiene una pureza única. Su naturaleza y vida salvaje hacen que sea un destino que atrae por muchas razones a cualquier apasionado de los viajes.
-                
-                  Dada la particular y tristemente célebre historia de este país, Sudáfrica no comenzó a aparecer en los radares del turismo internacional hasta bien mediada la década de los noventa del pasado siglo,siendo hoy, un lugar lleno de historia y belleza por recorrer.</p>
-
-                  <p class="continente__verMas fontMonserrat">Para más información, haga click en la bandera.</p>
-        </div>
-        
-        <div class="continente__paisButton">
-          <a target="_blank" href="https://www.lonelyplanet.es/africa/sudafrica" class="fontJost"><img src="../img/icon-southafrica.png" alt="" height="60"></a>
-        </div>
-
-    </div>
-</div>
-</section>
-
-  <!--MARRUECOS-->
-
-<a name="marruecos"></a>
-<section class="continente__paises color__fondoi"> 
-
-  <h3 class="continente__paistitulo fontRighteous centrado">¡Bienvidos a Marruecos!</h3>
-
-  <div class="container-fluid">
-    <div class="row justify-content-center align-items-center">
-
-        <div class="col-12 col-lg-6">
-          <div class="continente__iframe ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/C0oh-o1pY7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-
-        <div class="col-12 col-lg-5">
-            <h4 class="continente__infoTitulo izquierda fontRighteous">El país donde experimentar un vuelo en globo</h4>
-                <p class="continente__info justificada fontMonserrat"> Marruecos brinda un abanico de posibilidades a todo el que se atreva a adentrarse en él; además sus orgullosos ciudadanos se han esforzado por preservar su identidad y costumbres. Si a esto le unimos su heterogeneidad, nos encontramos con un país que proporciona un sinfín de experiencias congeladas en el tiempo.
-
-                Podrás recorrer sus medinas mientras esquivas el transporte con burros, dormir en pleno desierto del Sáhara bajo una jaima o incluso transitar por ciudades más avanzadas como su capital Rabat y, por supuesto, el imperdible vuelo en globo tan característico de Capadoccia, donde se pueden ver constantemente un show de colores decorando el cielo marroquí. </p>
-
-                <p class="continente__verMas fontMonserrat">Para más información, haga click en la bandera.</p>
-        </div>
-        
-        <div class="continente__paisButton">
-          <a target="_blank" href="https://www.visitmorocco.com/es" class="fontJost"><img src="../img/icon-morocco.png" alt="" height="60"></a>
-        </div>
-    </div>
-</div>
-</section>
-
-<!--Button up-->
-<div>
-  <a href="#paises" class="button__up"> <i class="fas fa-chevron-circle-up fa-2x"></i> </a>
-  </div>
-
-<!--INICIO DEL FOOTER-->
-<footer class="bg-white">
-  <div class="footer__banner">
-    <div class="container py-5">
-      <div class="row py-4">
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="../img/logovoorpretnombre.png" alt="" width="230" class="mb-3">
-          <h6 class="text-uppercase font-weight-bold mb-4 fontJost">Newsletter</h6>
-          <div class="p-1 rounded border">
-            <div class="input-group">
-              <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
-              <div class="input-group-append">
-                <button id="button-addon1" type="submit" class="btn"><i class="fa fa-paper-plane"></i></button>
-              </div>
+                <!--Marruecos-->
+                <div class="col-9 col-md-7 col-lg-3">
+                    <a href="#marruecos"><img class="paises__icon" src="../svg/marruecos.svg" alt="Icon representativo de Marruecos" /></a>
+                    <span class="row justify-content-center">
+                        <span class="col-12">
+                            <a href="#marruecos" class="btn fontJost btn btn-dark btn-secondary btn-sm">MARRUECOS</a>
+                        </span>
+                    </span>
+                </div>
             </div>
-          </div>
-          <ul class="footer__social list-inline mt-4">
-            <li class="list-inline-item"><a href="https://twitter.com" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="https://fb.com" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="https://instagram.com" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="https://https://www.pinterest.com/" target="_blank" title="pinterest"><i class="fa fa-pinterest"></i></a></li>
-          </ul>
+        </section>
+
+        <!--COMIENZA SECCIÓN DE CADA PAÍS-->
+
+        <!--EGIPTO-->
+        <a name="egipto"></a>
+        <section class="continente__paises color__fondoi">
+            <h3 class="continente__paistitulo fontRighteous centrado">¡Bienvenidos a Egipto!</h3>
+
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <div class="continente__iframe ratio ratio-16x9">
+                            <iframe
+                                src="https://www.youtube.com/embed/rsv4drcgHys"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-5">
+                        <h4 class="izquierda fontRighteous continente__infoTitulo">El país de los faraones</h4>
+                        <p class="justificada fontMonserrat continente__info">
+                            Con más de cinco mil años, la historia de Egipto es la más larga y documentada del mundo. Los primeros habitantes de Egipto se establecieron en las riberas del Nilo huyendo del desierto. Estos primeros indígenas,
+                            aislados y sin enemigos cercanos, eran gobernados por seres "divinos" a los que siguieron dinastías semi heróicas: "los descendientes de Horus". Estos habitantes se fueron organizando en provincias (llamadas
+                            Nomos) y con su unificación surgieron dos reinos: el Alto y el Bajo Egipto.
+                        </p>
+
+                        <p class="continente__verMas fontMonserrat">Para más información, haga click en la bandera.</p>
+                    </div>
+
+                    <div class="continente__paisButton">
+                        <a target="_blank" href="https://www.egipto.net/" class="fontJost"><img src="../img/icon-egypt.png" alt="Bandera de Egipto" height="60" /></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--SUDÁFRICA-->
+
+        <a name="sudafrica"></a>
+        <section class="continente__paises color__fondoii">
+            <h3 class="continente__paistitulo fontRighteous centrado">¡Bienvidos a Sudáfrica!</h3>
+
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <div class="continente__iframe ratio ratio-16x9">
+                            <iframe
+                                src="https://www.youtube.com/embed/zNx5F8htBvo"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-5">
+                        <h4 class="continente__infoTitulo izquierda fontRighteous">Conocida como la Nación Arcoíris</h4>
+                        <p class="continente__info justificada fontMonserrat">
+                            Si hay un país en el mundo que se caracteriza por su fascinante diversidad cultural y geográfica, ese es Sudáfrica. Conocida como la Nación del Arcoíris por la diversidad que acuna en todo aspecto, Sudáfrica
+                            tiene una pureza única. Su naturaleza y vida salvaje hacen que sea un destino que atrae por muchas razones a cualquier apasionado de los viajes. Dada la particular y tristemente célebre historia de este país,
+                            Sudáfrica no comenzó a aparecer en los radares del turismo internacional hasta bien mediada la década de los noventa del pasado siglo,siendo hoy, un lugar lleno de historia y belleza por recorrer.
+                        </p>
+
+                        <p class="continente__verMas fontMonserrat">Para más información, haga click en la bandera.</p>
+                    </div>
+
+                    <div class="continente__paisButton">
+                        <a target="_blank" href="https://www.lonelyplanet.es/africa/sudafrica" class="fontJost"><img src="../img/icon-southafrica.png" alt="Bandera de Sudáfrica" height="60" /></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--MARRUECOS-->
+
+        <a name="marruecos"></a>
+        <section class="continente__paises color__fondoi">
+            <h3 class="continente__paistitulo fontRighteous centrado">¡Bienvidos a Marruecos!</h3>
+
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <div class="continente__iframe ratio ratio-16x9">
+                            <iframe
+                                src="https://www.youtube.com/embed/C0oh-o1pY7A"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-5">
+                        <h4 class="continente__infoTitulo izquierda fontRighteous">El país donde experimentar un vuelo en globo</h4>
+                        <p class="continente__info justificada fontMonserrat">
+                            Marruecos brinda un abanico de posibilidades a todo el que se atreva a adentrarse en él; además sus orgullosos ciudadanos se han esforzado por preservar su identidad y costumbres. Si a esto le unimos su
+                            heterogeneidad, nos encontramos con un país que proporciona un sinfín de experiencias congeladas en el tiempo. Podrás recorrer sus medinas mientras esquivas el transporte con burros, dormir en pleno desierto del
+                            Sáhara bajo una jaima o incluso transitar por ciudades más avanzadas como su capital Rabat y, por supuesto, el imperdible vuelo en globo tan característico de Capadoccia, donde se pueden ver constantemente un
+                            show de colores decorando el cielo marroquí.
+                        </p>
+
+                        <p class="continente__verMas fontMonserrat">Para más información, haga click en la bandera.</p>
+                    </div>
+
+                    <div class="continente__paisButton">
+                        <a target="_blank" href="https://www.visitmorocco.com/es" class="fontJost"><img src="../img/icon-morocco.png" alt="Bandera de Marruecos" height="60" /></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Button up-->
+        <div>
+            <a href="#paises" class="button__up"> <i class="fas fa-chevron-circle-up fa-2x"></i> </a>
         </div>
-        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 offset-md-1">
-          <h6 class="text-uppercase font-weight-bold mb-4 fontJost">Destinos</h6>
-          <ul class="footer__destinos list-unstyled mb-0">
-            <li class="mb-2"><a href="./destinosamericanorte.html" class="fontRighteous"><i class="fas fa-globe-americas"></i>  América Norte y Central</a></li>
-            <li class="mb-2"><a href="./destinosamericasur.html" class="fontRighteous"><i class="fas fa-globe-americas"></i>  América Sur</a></li>
-            <li class="mb-2"><a href="./destinoseuropa.html" class="fontRighteous"><i class="fas fa-globe-europe"></i>  Europa</a></li>
-            <li class="mb-2"><a href="./destinosasia.html" class="fontRighteous"><i class="fas fa-globe-asia"></i>  Asia</a></li>
-            <li class="mb-2"><a href="./destinosoceania.html" class="fontRighteous"><i class="fas fa-globe-asia"></i>  Oceanía</a></li>
-            <li class="mb-2"><a href="./destinosafrica.html" class="fontRighteous"><i class="fas fa-globe-africa"></i>  África</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 offset-md-1">
-          <h6 class="text-uppercase font-weight-bold mb-4 fontJost">Contacto</h6>
-          <ul class="footer__contacto list-unstyled mb-0 fontRighteous">
-            <li class="mb-2"> <i class="fas fa-envelope-open-text fa-lg"></i> voorpret@gmail.com </li>
-            <li class="mb-2"> <i class="fas fa-comments fa-lg"></i> +5491168794571</li>
-            <li class="mb-2"> <i class="fas fa-map-marked-alt fa-lg"></i> Buenos Aires, Argentina </li>
-          </ul>
-        </div>
 
-      </div>
-    </div>
+        <!--INICIO DEL FOOTER-->
+        <footer class="bg-white">
+            <div class="footer__banner">
+                <div class="container py-5">
+                    <div class="row py-4">
+                        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                            <img src="../img/logovoorpretnombre.png" alt="Logo de Voorpret" width="230" class="mb-3" />
+                            <h6 class="text-uppercase font-weight-bold mb-4 fontJost">Newsletter</h6>
+                            <div class="p-1 rounded border">
+                                <div class="input-group">
+                                    <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0" />
+                                    <div class="input-group-append">
+                                        <button id="button-addon1" type="submit" class="btn"><i class="fa fa-paper-plane"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="footer__social list-inline mt-4">
+                                <li class="list-inline-item">
+                                    <a href="https://twitter.com" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://fb.com" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://instagram.com" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://https://www.pinterest.com/" target="_blank" title="pinterest"><i class="fa fa-pinterest"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 offset-md-1">
+                            <h6 class="text-uppercase font-weight-bold mb-4 fontJost">Destinos</h6>
+                            <ul class="footer__destinos list-unstyled mb-0">
+                                <li class="mb-2">
+                                    <a href="./destinosamericanorte.html" class="fontRighteous"><i class="fas fa-globe-americas"></i> América Norte y Central</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="./destinosamericasur.html" class="fontRighteous"><i class="fas fa-globe-americas"></i> América Sur</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="./destinoseuropa.html" class="fontRighteous"><i class="fas fa-globe-europe"></i> Europa</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="./destinosasia.html" class="fontRighteous"><i class="fas fa-globe-asia"></i> Asia</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="./destinosoceania.html" class="fontRighteous"><i class="fas fa-globe-asia"></i> Oceanía</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="./destinosafrica.html" class="fontRighteous"><i class="fas fa-globe-africa"></i> África</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 offset-md-1">
+                            <h6 class="text-uppercase font-weight-bold mb-4 fontJost">Contacto</h6>
+                            <ul class="footer__contacto list-unstyled mb-0 fontRighteous">
+                                <li class="mb-2"><i class="fas fa-envelope-open-text fa-lg"></i> voorpret@gmail.com</li>
+                                <li class="mb-2"><i class="fas fa-comments fa-lg"></i> +5491168794571</li>
+                                <li class="mb-2"><i class="fas fa-map-marked-alt fa-lg"></i> Buenos Aires, Argentina</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-    <!-- Copyrights -->
-    <div>
-      <div class="footer__copy container text-center">
-        <p class="mb-0 py-2 fontJost mayusculaTotal">All rights reserved by ©VOORPRET 2021</p>
-      </div>
-    </div>
-  </div>
-</footer>
+                <!-- Copyrights -->
+                <div>
+                    <div class="footer__copy container text-center">
+                        <p class="mb-0 py-2 fontJost mayusculaTotal">All rights reserved by ©VOORPRET 2021</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-      <!--BARRA DE NAVEGACIÓN-->
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-      <script>
-      $(document).ready(function(){
-        console.log('ready');
-        let scrollVar = 183;
-        $(window).scroll(function(){
-            let x = $(this).scrollTop();
-            if(x > scrollVar){
-                $('#header').addClass('header-scrolled')
-            }else if(x < scrollVar){
-                $('#header').removeClass('header-scrolled')
-            }
-        })
-      })
-      </script>
-    <!--Bootstrap con JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-
-</body>
-
-
+        <!--BARRA DE NAVEGACIÓN-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function () {
+                console.log("ready");
+                let scrollVar = 183;
+                $(window).scroll(function () {
+                    let x = $(this).scrollTop();
+                    if (x > scrollVar) {
+                        $("#header").addClass("header-scrolled");
+                    } else if (x < scrollVar) {
+                        $("#header").removeClass("header-scrolled");
+                    }
+                });
+            });
+        </script>
+        <!--Bootstrap con JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    </body>
 </html>
