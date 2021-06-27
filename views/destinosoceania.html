@@ -31,6 +31,8 @@
 
 <body>
 
+  <div class="div__header">
+
     <header id="header"> <!--Este es el encabezado de mi página-->
 
         <nav class="header__nav navbar navbar-expand-lg navbar-light .myNav ">
@@ -63,21 +65,23 @@
     </header>
     
     <section class="banner">
-    
-    <img class="banner__foto" src="../img/portadaoceania.png" alt="">
-          
+      <img class="banner__videoImagen" src="../img/portadaoceania.png" alt="">
+      <h1 class="banner__titulo fontJost muyNegrita mayusculaTotal centrado">Oceanía</h1>
     </section>
+
+  </div>
     
     <!--SECCIÓN DE ICONOS OCEANÍA-->
+  <a name="paises"></a>
     <section class="continente__section">
     
       <div class="row justify-content-center">
-        <h1 class="africa__titulo fontJost muyNegrita mayusculaTotal centrado">Oceanía</h1>
+        <h2 class="africa__titulo fontJost muyNegrita mayusculaTotal centrado">Países de Oceanía</h2>
       </div>
     
       <div class="continente__paisesicon row service__content justify-content-center mt-lg-4">
         <div class="col-9 col-md-7 col-lg-3">
-          <img class="paises__icon" src="../svg/australia.svg" width="200" height="200" alt="Icon representativo de Australia">
+          <a href="#australia"><img class="paises__icon" src="../svg/australia.svg" alt="Icon representativo de Australia"></a>
           <span class="row justify-content-center">
             <span class="col-12">
               <a href="#australia" class="btn fontJost btn btn-secondary btn-sm">AUSTRALIA</a>
@@ -86,7 +90,7 @@
         </div>
     
         <div class="col-9 col-md-7 col-lg-3">
-          <img class="paises__icon" src="../svg/nz.svg" width="200" height="200" alt="Icon representativo de Nueva Zelanda">
+          <a href="#nuezel"><img class="paises__icon" src="../svg/nz.svg" alt="Icon representativo de Nueva Zelanda"></a>
           <span class="row justify-content-center">
             <span class="col-12">
               <a href="#nuezel" class="btn fontJost btn btn-secondary btn-sm">NUEVA ZELANDA</a>
@@ -103,24 +107,30 @@
 <a name="australia"></a>
     <section class="continente__paises color__fondoi"> 
     
-      <h2 class="continente__paistitulo fontRighteous centrado">¡Bienvenidos a Australia!</h2>
+      <h3 class="continente__paistitulo fontRighteous centrado">¡Bienvenidos a Australia!</h3>
     
       <div class="container-fluid">
         <div class="row justify-content-center align-items-center">
     
             <div class="col-12 col-lg-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/IPbzWJNmndY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="continente__iframe ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/IPbzWJNmndY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </div>
     
             <div class="col-12 col-lg-5">
-                <h2 class="izquierda fontRighteous">El país de los faraones</h2>
-                    <p class="justificada fontMonserrat">Con más de cinco mil años, la historia de Egipto es la más larga y documentada del mundo. 
-    
-                    Los primeros habitantes de Egipto se establecieron en las riberas del Nilo huyendo del desierto. Estos primeros indígenas, aislados y sin enemigos cercanos, eran gobernados por seres "divinos" a los que siguieron dinastías semi heróicas: "los descendientes de Horus".
-    
-                    Estos habitantes se fueron organizando en provincias (llamadas Nomos) y con su unificación surgieron dos reinos: el Alto y el Bajo Egipto.. </p>
+                <h4 class="continente__infoTitulo izquierda fontRighteous">El país formado por colonias de presos ingleses</h4>
+                    <p class="continente__info justificada fontMonserrat">Aunque para muchos sea un continente, con más de 7 millones de kilómetros cuadrados, Australia es el sexto país más grande del mundo y su gran extensión se corresponde con la variedad de las atracciones turísticas que se pueden disfrutar en el lugar. Las ciudades australianas más importantes se encuentran en la costa oeste.
+                    Australia es un país fascinante, el viaje soñado de aquellos viajeros que quieren vivir experiencias como bucear en la mayor barrera de coral del mundo, adentrarse en bosques milenarios, conocer la cultura viva más antigua del mundo, disfrutar de playas paradisíacas, surfear olas de clase mundial y deleitarse con los animales únicos que habitan esta gran isla de Oceanía.
+                    </p>
+
+                    <p class="continente__verMas fontMonserrat">Para más información, haga click en la bandera.</p>
             </div>
             
+            <div class="continente__paisButton">
+              <a target="_blank" href="https://www.australia.com/en"><img src="../img/icon-australia.png" alt="" height="60"></a>
+            </div>
+
         </div>
     </div>
     </section>
@@ -129,30 +139,45 @@
 <a name="nuezel"></a>
     <section class="continente__paises color__fondoii"> 
     
-      <h2 class="continente__paistitulo fontRighteous centrado">¡Bienvidos a Nueva Zelanda!</h2>
+      <h3 class="continente__paistitulo fontRighteous centrado">¡Bienvidos a Nueva Zelanda!</h3>
     
       <div class="container-fluid">
         <div class="row justify-content-center align-items-center">
     
             <div class="col-12 col-lg-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/IPbzWJNmndY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="continente__iframe ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/IPbzWJNmndY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </div>
     
             <div class="col-12 col-lg-5">
-                <h2 class="izquierda fontRighteous">El país de los faraones</h2>
-                    <p class="justificada fontMonserrat"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos earum in mollitia vero omnis quia! Deserunt aut perspiciatis illum quia neque nemo vel ullam, quidem corrupti ratione eaque quo veniam asperiores nulla, veritatis excepturi a nisi suscipit ipsum odit modi! Rem beatae blanditiis eligendi facilis totam et nemo nobis maxime, qui eos commodi facere nulla quod autem fugiat illum veritatis nesciunt laudantium eius? Nulla, vitae? Sint quisquam aspernatur doloribus ipsam aperiam consectetur fugit! Accusamus facilis nihil ad nesciunt facere dolores fugiat provident dolorem, quia expedita veritatis numquam, harum aliquid vitae illum saepe natus iusto dolore quasi repudiandae molestias repellendus!. </p>
+                <h4 class="continente__infoTitulo izquierda fontRighteous">País donde encontrar el "hobbiton"</h4>
+                    <p class="continente__info justificada fontMonserrat">Nueva Zelanda cautiva y fascina ya solo con mencionar su nombre. Destino cada vez más pujante en Europa, aún es bastante conocido en España, y sin embargo cuenta con una afluencia importante desde México o Argentina.
+
+                    Nueva Zelanda en las antípodas de Europa ya fue misteriosa, salvaje y atractiva para la Europa del siglo XIX. Apenas colonizada, la literatura impregnó con su tinta estos parajes de Oceanía. Julio Verne con su libro Dos Años de Vacaciones reflejó la historia real de los Náufragos de las Aucklands, y recurrió de nuevo a la isla austral en La isla misteriosa. Y es que el componente exótico de Nueva Zelanda ya flotaba en el ambiente explorador de antaño. Hoy son otros viajeros, exploradores del turismo y viajeros los que siguen embelesados. </p>
+
+                    <p class="continente__verMas fontMonserrat">Para más información, haga click en la bandera.</p>
             </div>
             
+            <div class="continente__paisButton">
+              <a target="_blank" href="https://www.newzealand.com/cl/" class="fontJost"><img src="../img/icon-nuevazelanda.png" alt="" height="60"></a>
+            </div>
+
         </div>
     </div>
 </section>
+
+<!--Button up-->
+<div>
+  <a href="#paises" class="button__up"> <i class="fas fa-chevron-circle-up fa-2x"></i> </a>
+  </div>
 
 <!--INICIO DEL FOOTER-->
 <footer class="bg-white">
   <div class="footer__banner">
     <div class="container py-5">
       <div class="row py-4">
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="./img/logovoorpretnombre.png" alt="" width="230" class="mb-3">
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="../img/logovoorpretnombre.png" alt="" width="230" class="mb-3">
           <h6 class="text-uppercase font-weight-bold mb-4 fontJost">Newsletter</h6>
           <div class="p-1 rounded border">
             <div class="input-group">
@@ -188,7 +213,6 @@
             <li class="mb-2"> <i class="fas fa-map-marked-alt fa-lg"></i> Buenos Aires, Argentina </li>
           </ul>
         </div>
-
       </div>
     </div>
 
@@ -201,6 +225,22 @@
   </div>
 </footer>
 
+      <!--BARRA DE NAVEGACIÓN-->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script>
+      $(document).ready(function(){
+        console.log('ready');
+        let scrollVar = 183;
+        $(window).scroll(function(){
+            let x = $(this).scrollTop();
+            if(x > scrollVar){
+                $('#header').addClass('header-scrolled')
+            }else if(x < scrollVar){
+                $('#header').removeClass('header-scrolled')
+            }
+        })
+      })
+      </script>
     <!--Bootstrap con JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 

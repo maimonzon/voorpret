@@ -27,15 +27,13 @@
         <script src="https://kit.fontawesome.com/4926abe3be.js" crossorigin="anonymous"></script>
 </head>
 
-
-
 <body>
-
+  <div class="div__header">
   <header id="header"> <!--Este es el encabezado de mi página-->
 
     <nav class="header__nav navbar navbar-expand-lg navbar-light .myNav ">
         <div class="container-fluid">
-          <a href="./index.html"><img src="../img/logovoorpretsombreado.png" width="100px" alt=""></a>
+          <a href="../index.html"><img src="../img/logovoorpretsombreado.png" width="100px" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -63,17 +61,49 @@
 </header>
 
 <section class="banner">
-
-  <video class="banner__video" src="../img/voorpretvideo.mp4" autoplay muted loop></video>
-      
+  <video class="banner__videoImagen" src="../img/voorpretvideo.mp4" autoplay muted loop></video>
+  <h1 class="banner__titulo fontJost muyNegrita mayusculaTotal">Noticias</h1>
 </section>
+</div>
 
 <!--NOTICIAS SECCIÓN I-->
 
 <div class="noticias__section row container-fluid  py-5">
   <div class="col-lg-4">
+    <a target="_blank" href="https://argentina.ladevi.info/canada/canada-abrira-gradualmente-fronteras-el-22-julio-n31693"><figure class="rounded p-3 bg-white shadow-sm">
+      <img src="../img/noticia1.jpg" alt="" class="noticias__img w-100 card-img-top">
+      <figcaption class="p-4 card-img-bottom">
+        <h2 class="h5 font-weight-bold mb-2 fontJost">Apertura de fronteras canadienses</h2>
+        <p class="mb-0 text-small text-muted font-italic">Se anunció que las fronteras de Canadá se mantendrán cerradas hasta el 21 de julio, permitiendo la reactivación a posterior de esa fecha.</p>
+      </figcaption>
+    </figure></a>
+  </div>
+  <div class="col-lg-4">
+    <a target="_blank" href="https://argentina.ladevi.info/vacaciones-invierno/cuando-son-las-vacaciones-invierno-n31571"><figure class="rounded p-3 bg-white shadow-sm">
+      <img src="../img/noticia2.jpg" alt="" class="noticias__img w-100 card-img-top">
+      <figcaption class="p-4 card-img-bottom">
+        <h2 class="h5 font-weight-bold mb-2 fontJost">Vacaciones de invierno en Argentina</h2>
+        <p class="mb-0 text-small text-muted font-italic">Diferentes destinos deciden las fechas de apertura o aplazo para comenzar las vaciones de invierno y recibir a los turistas. Gran oportunidad para reactivar el turismo.</p>
+      </figcaption>
+    </figure></a>
+  </div>
+  <div class="col-lg-4">
+    <a target="_blank" href="https://argentina.ladevi.info/espana/espana-cuales-son-los-los-requisitos-ingresar-n31280"><figure class="rounded p-3 bg-white shadow-sm">
+      <img src="../img/noticia3.jpg" alt="" class="noticias__img w-100 card-img-top">
+      <figcaption class="p-4 card-img-bottom">
+        <h2 class="h5 font-weight-bold mb-2 fontJost">Volver a viajar</h2>
+        <p class="mb-0 text-small text-muted font-italic">Después de 16 meses de grandes bajas turísticas, ya se habla de una nueva reactivación a futuro, con medidas a implementar y una nueva normalidad.</p>
+      </figcaption>
+    </figure></a>
+  </div>
+</div>
+
+<!--NOTICIAS SECCIÓN II-->
+
+<div class="noticias__section row container-fluid  py-5">
+  <div class="col-lg-4">
     <a target="_blank" href="https://argentina.ladevi.info/prueba-pcr/prueba-pcr-el-abc-del-requisito-ingresar-colombia-n27942"><figure class="rounded p-3 bg-white shadow-sm">
-      <img src="../img/noticia6.jpg" alt="" class="w-100 card-img-top">
+      <img src="../img/noticia6.jpg" alt="" class="noticias__img w-100 card-img-top">
       <figcaption class="p-4 card-img-bottom">
         <h2 class="h5 font-weight-bold mb-2 fontJost">Colombia reabre fronteras</h2>
         <p class="mb-0 text-small text-muted font-italic">Teniendo en cuenta la reapertura de fronteras para el turismo internacional anunciada para el 7 de junio, el Ministerio de Sanidad de España establece requisitos.</p>
@@ -82,7 +112,7 @@
   </div>
   <div class="col-lg-4">
     <a target="_blank" href="https://argentina.ladevi.info/vuelos-internacionales/vuelos-internacionales-los-autorizados-junio-n31129"><figure class="rounded p-3 bg-white shadow-sm">
-      <img src="../img/noticia5.jpg" alt="" class="w-100 card-img-top">
+      <img src="../img/noticia5.jpg" alt="" class="noticias__img w-100 card-img-top">
       <figcaption class="p-4 card-img-bottom">
         <h2 class="h5 font-weight-bold mb-2 fontJost">Vuelos internacionales</h2>
         <p class="mb-0 text-small text-muted font-italic">Los vuelos internacionales siguen limitados y con un cupo máximo de 2 mil pasajeros diarios, sin embargo, la ANAC ya compartió toda la información de próximos vuelos.</p>
@@ -91,7 +121,7 @@
   </div>
   <div class="col-lg-4">
     <a target="_blank" href="https://argentina.ladevi.info/espana/espana-cuales-son-los-los-requisitos-ingresar-n31280"><figure class="rounded p-3 bg-white shadow-sm">
-      <img src="../img/noticia4.jpg" alt="" class="w-100 card-img-top">
+      <img src="../img/noticia4.jpg" alt="" class="noticias__img w-100 card-img-top">
       <figcaption class="p-4 card-img-bottom">
         <h2 class="h5 font-weight-bold mb-2 fontJost">Requisitos de ingreso a España</h2>
         <p class="mb-0 text-small text-muted font-italic">La reactivación del turismo internacional incluye ciertos requisitos y anuncia una lista de países que deben ingresar con prueba PCR y/o vacuna.</p>
@@ -100,44 +130,12 @@
   </div>
 </div>
 
-<!--NOTICIAS SECCIÓN II-->
-
-<div class="row container-fluid">
-  <div class="col-lg-4">
-    <figure class="rounded p-3 bg-white shadow-sm">
-      <img src="https://i.postimg.cc/CxckQJW1/6.png" alt="" class="w-100 card-img-top">
-      <figcaption class="p-4 card-img-bottom">
-        <h2 class="h5 font-weight-bold mb-2 font-italic">Image Caption</h2>
-        <p class="mb-0 text-small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-      </figcaption>
-    </figure>
-  </div>
-  <div class="col-lg-4">
-    <figure class="rounded p-3 bg-white shadow-sm">
-      <img src="https://i.postimg.cc/BbvGMSDt/6.png" alt="" class="w-100 card-img-top">
-      <figcaption class="p-4 card-img-bottom">
-        <h2 class="h5 font-weight-bold mb-2 font-italic">Image Caption</h2>
-        <p class="mb-0 text-small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-      </figcaption>
-    </figure>
-  </div>
-  <div class="col-lg-4">
-    <figure class="rounded p-3 bg-white shadow-sm">
-      <img src="https://i.postimg.cc/W3bKP94H/6.png" alt="" class="w-100 card-img-top">
-      <figcaption class="p-4 card-img-bottom">
-        <h2 class="h5 font-weight-bold mb-2 font-italic">Image Caption</h2>
-        <p class="mb-0 text-small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-      </figcaption>
-    </figure>
-  </div>
-</div>
-
 <!--INICIO DEL FOOTER-->
 <footer class="bg-white">
   <div class="footer__banner">
     <div class="container py-5">
       <div class="row py-4">
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="./img/logovoorpretnombre.png" alt="" width="230" class="mb-3">
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="../img/logovoorpretnombre.png" alt="" width="230" class="mb-3">
           <h6 class="text-uppercase font-weight-bold mb-4 fontJost">Newsletter</h6>
           <div class="p-1 rounded border">
             <div class="input-group">
@@ -185,6 +183,22 @@
   </div>
 </footer>
 
+      <!--BARRA DE NAVEGACIÓN-->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script>
+      $(document).ready(function(){
+        console.log('ready');
+        let scrollVar = 183;
+        $(window).scroll(function(){
+            let x = $(this).scrollTop();
+            if(x > scrollVar){
+                $('#header').addClass('header-scrolled')
+            }else if(x < scrollVar){
+                $('#header').removeClass('header-scrolled')
+            }
+        })
+      })
+      </script>
     <!--Bootstrap con JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 

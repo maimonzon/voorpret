@@ -30,12 +30,12 @@
 
 
 <body> 
-
+  <div class="div__header">
     <header id="header"> <!--Este es el encabezado de mi página-->
 
         <nav class="header__nav navbar navbar-expand-lg navbar-light .myNav ">
             <div class="container-fluid">
-              <a href="./index.html"><img src="../img/logovoorpretsombreado.png" width="100px" alt=""></a>
+              <a href="../index.html"><img src="../img/logovoorpretsombreado.png" width="100px" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -63,18 +63,19 @@
     </header>
     
     <section class="banner">
-    
-      <video class="banner__video" src="../img/voorpretvideo.mp4" autoplay muted loop></video>
-          
+      <video class="banner__videoImagen" src="../img/voorpretvideo.mp4" autoplay muted loop></video>
+      <h1 class="banner__titulo fontJost muyNegrita mayusculaTotal">Galería</h1>
     </section>
+    </div>
 
 <!--GALERÍA DE FOTOS-->
 
     <section class="section__galeria py-5">
 
-        <h1 class="tituloGaleria fontJost muyNegrita mayusculaTotal centrado">Galería</h1>
+        <h2 class="tituloGaleria fontJost muyNegrita mayusculaTotal centrado">Recorramos el mundo con imágenes</h2>
 
-        <div class="container"><p class="centrado galeria__descripcion">Un destino no sólo cuenta con bellezas a nivel natural y arquitectónico, sino que además, la cultura, aquello que se nos brinda al llegar al destino, puede expresarse de tantas formas dignas de recordad en una fotografía. ¡No dejes de ver las bellezas que oculta el mundo!</p>
+        <div class="container"><p class="centrado galeria__descripcion fontMonserrat">Un destino no sólo cuenta con bellezas a nivel natural y arquitectónico, sino que además, la cultura, aquello que se nos brinda al llegar al destino, puede expresarse de tantas formas dignas de recordad en una fotografía. ¡No dejes de ver las bellezas que oculta el mundo! 
+        <br> A continuación se encontrará con un acordeón, al hacer click en alguna de sus pestañas, van a desplegarse maravillosas imágenes de profesionales, visitantes e incluso lugareños de diferentes lugares del mundo</p>
 
             <div class="accordion accordion-flush" id="accordionFlushExample">
 
@@ -89,42 +90,38 @@
                         <div class="galeriaDestinos">
 
                             <div class="flexPadre htmlGaleria">
-                    
                                 <div class="flexHijo">
-                                    <img class="img-fluid" src="../img/galeria1.jpg" alt="Costas de Capri, Italia">
-                                    <img class="img-fluid" src="../img/galeria2.jpg" alt="Mar de la costa Almafitana, Italia">
-                                    <img class="img-fluid" src="../img/galeria3.jpg" alt="Parque nacional de los Arcos, USA">
-                                    <img class="img-fluid" src="../img/galeria4.jpeg" alt="Parque Nacional Banff, Canadá">
+                                    <img class="img-fluid" src="../img/aa-galeria.jpg" alt="Costas de Capri, Italia">
+                                    <img class="img-fluid" src="../img/ab-galeria.jpg" alt="Mar de la costa Almafitana, Italia">
+                                    <img class="img-fluid" src="../img/ac-galeria.jpg" alt="Parque nacional de los Arcos, USA">
+                                    <img class="img-fluid" src="../img/ad-galeria.jpeg" alt="Parque Nacional Banff, Canadá">
+                                    <img src="../img/aj-galeria.jpg" alt="El Valle de los Cirios, México">
                                 </div>
                     
                                 <div class="flexHijo">
-                                    <img src="../img/galeria6.jpeg" alt="Auroras boreales">
-                                    <img src="../img/galeria7.jpeg" alt="Camino de árboles otoñales">
-                                    <img src="../img/galeria8.jpeg" alt="La Gran Reserva de la Biosfera de Nicobar">
-                                    <img src="../img/galeria9.jpg" alt="Los Jardines de Augusto, isla de Capri">
-                                    <img src="../img/galeria10.jpg" alt="El Valle de los Cirios, México">
+                                    <img src="../img/af-galeria.jpeg" alt="Auroras boreales">
+                                    <img src="../img/ag-galeria.jpeg" alt="Camino de árboles otoñales">
+                                    <img src="../img/ah-galeria.jpeg" alt="La Gran Reserva de la Biosfera de Nicobar">
+                                    <img src="../img/ai-galeria.jpg" alt="Los Jardines de Augusto, isla de Capri">
+
                                 </div>
-                    
-                    
+
                                 <div class="flexHijo">
-                                    <img src="../img/galeria11.jpeg" alt="Montañas nocturnas en Noruega">
-                                    <img src="../img/galeria12.jpg" alt="Parque nacional da Chapada dos Veadeiros, Brasil">
-                                    <img src="../img/galeria13.jpeg" alt="Bosque invernal">
-                                    <img src="../img/galeria14.jpeg" alt="Peitlerkofel, montaña de los Dolomitas en el Tirol del Sur, Italia">
-                                    <img src="../img/galeria15.jpeg" alt="Valle de los Monumentos, USA">
+                                    <img src="../img/ak-galeria.jpeg" alt="Montañas nocturnas en Noruega">
+                                    <img src="../img/al-galeria.jpg" alt="Parque nacional da Chapada dos Veadeiros, Brasil">
+                                    <img src="../img/am-galeria.jpeg" alt="Bosque invernal">
+                                    <img src="../img/an-galeria.jpeg" alt="Peitlerkofel, montaña de los Dolomitas en el Tirol del Sur, Italia">
+                                    <img src="../img/ao-galeria.jpeg" alt="Valle de los Monumentos, USA">
                                 </div>
-                    
-                    
+
                                 <div class="flexHijo">
-                                    <img src="../img/galeria16.jpeg" alt="Bosque">
-                                    <img src="../img/galeria17.jpeg" alt="La Rosière, estación de esquí en el sureste de Francia">
-                                    <img src="../img/galeria18.jpeg" alt="Vista aérea de zona agricultora">
-                                    <img src="../img/galeria19.jpeg" alt="Volcán">
-                                    <img src="../img/galeria20.jpeg" alt="Distrito financiero de Melbourne, Australia">
+                                    <img src="../img/ap-galeria.jpeg" alt="Bosque">
+                                    <img src="../img/aq-galeria.jpeg" alt="La Rosière, estación de esquí en el sureste de Francia">
+                                    <img src="../img/ar-galeria.jpeg" alt="Vista aérea de zona agricultora">
+                                    <img src="../img/as-galeria.jpeg" alt="Volcán">
+                                    <img src="../img/at-galeria.jpeg" alt="Distrito financiero de Melbourne, Australia">
                                 </div>
-                    
                             </div>
-                    
                         </div>
                     </div>
                 </div>
@@ -134,11 +131,48 @@
                 <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingTwo">
                     <button class="accordion-button collapsed fontJost mayusculaTotal" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    Comidas regionales
+                    Gastronomía internacional
                     </button>
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                    <div class="accordion-body">
+
+                        <div class="galeriaDestinos">
+
+                          <div class="flexPadre htmlGaleria">
+                              <div class="flexHijo">
+                                  <img class="img-fluid" src="../img/ba-galeria.jpg" alt="Comidas del mundo">
+                                  <img class="img-fluid" src="../img/bb-galeria.jpg" alt="Comidas del mundo">
+                                  <img class="img-fluid" src="../img/bc-galeria.jpg" alt="Comidas del mundo">
+                                  <img src="../img/bf-galeria.jpg" alt="Comidas del mundo">
+                              </div>
+                  
+                              <div class="flexHijo">
+                                  <img src="../img/bg-galeria.jpg" alt="Comidas del mundo">
+                                  <img src="../img/bh-galeria.jpg" alt="Comidas del mundo">
+                                  <img src="../img/bi-galeria.jpg" alt="Comidas del mundo">
+                                  <img src="../img/bj-galeria.jpg" alt="Comidas del mundo">
+                                  <img src="../img/bk-galeria.jpg" alt="Comidas del mundo">
+                              </div>
+
+                              <div class="flexHijo">
+                                  <img src="../img/bm-galeria.jpg" alt="Comidas del mundo">
+                                  <img src="../img/bn-galeria.jpg" alt="Comidas del mundo">
+                                  <img src="../img/bm-galeria.jpg" alt="Comidas del mundo">
+                                  <img src="../img/bo-galeria.jpg" alt="Comidas del mundo">
+                                  <img src="../img/bp-galeria.jpg" alt="Comidas del mundo">
+                              </div>
+
+                              <div class="flexHijo">
+                                  <img src="../img/bq-galeria.jpg" alt="Comidas del mundo">
+                                  <img src="../img/br-galeria.jpg" alt="Comidas del mundo">
+                                  <img src="../img/bs-galeria.jpg" alt="Comidas del mundo">
+                                  <img src="../img/bt-galeria.jpg" alt="Comidas del mundo">
+                                  <img src="../img/bu-galeria.jpg" alt="Comidas del mundo">
+                              </div>
+                          </div>
+                        </div>
+                    </div>
                 </div>
                 </div>
 
@@ -150,32 +184,46 @@
                 </h2>
                 <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                        Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+
+                      <div class="galeriaDestinos">
+
+                        <div class="flexPadre htmlGaleria">
+                            <div class="flexHijo">
+                                <img class="img-fluid" src="../img/ca-galeria.jpeg" alt="Festival del Día de los Muertos, México">
+                                <img class="img-fluid" src="../img/cb-galeria.jpg" alt="Festival del Día de los Muertos, México">
+                                <img class="img-fluid" src="../img/cc-galeria.jpg" alt="Festival del Día de los Muertos, México">
+                                <img src="../img/cd-galeria.jpg" alt="Festival del Día de los Muertos, México">
+                                <img src="../img/ce-galeria.jpg" alt="Festival del Día de los Muertos, México">
+                            </div>
+                
+                            <div class="flexHijo">
+                                <img src="../img/cf-galeria.jpg" alt="Festival Holi Colors, India">
+                                <img src="../img/cg-galeria.jpg" alt="Festival Holi Colors, India">
+                                <img src="../img/ch-galeria.jpg" alt="Festival Holi Colors, India">
+                                <img src="../img/ci-galeria.jpg" alt="Festival Holi Colors, India">
+                                <img src="../img/ct-galeria.jpg" alt="Festival Holi Colors, India">
+                            </div>
+
+                            <div class="flexHijo">
+                                <img src="../img/cj-galeria.jpg" alt="Celebración Inti Raymi, Perú">
+                                <img src="../img/ck-galeria.png" alt="Celebración Inti Raymi, Perú">
+                                <img src="../img/cl-galeria.jpg" alt="Celebración Inti Raymi, Perú">
+                                <img src="../img/cm-galeria.jpg" alt="Celebración Inti Raymi, Perú">
+                                <img src="../img/cn-galeria.jpg" alt="Celebración Inti Raymi, Perú">
+                                <img src="../img/cs-galeria.jpg" alt="Celebración Inti Raymi, Perú">
+                            </div>
+
+                            <div class="flexHijo">
+                                <img src="../img/co-galeria.jpg" alt="Festival de Venecia, Italia">
+                                <img src="../img/cp-galeria.jpg" alt="Festival de Venecia, Italia">
+                                <img src="../img/cq-galeria.jpeg" alt="Festival de Venecia, Italia">
+                                <img src="../img/cr-galeria.jpg" alt="Festival de Venecia, Italia">
+                            </div>
+                        </div>
+                      </div>
                     </div>
                 </div>
                 </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingFour">
-                        <button class="accordion-button collapsed fontJost mayusculaTotal" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                        videos de viajeros
-                        </button>
-                    </h2>
-                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                    </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingFive">
-                            <button class="accordion-button collapsed fontJost mayusculaTotal" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                            otro contenido
-                            </button>
-                        </h2>
-                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                        </div>
-                        </div>
 
             </div>
 
@@ -186,7 +234,7 @@
     <div class="footer__banner">
       <div class="container py-5">
         <div class="row py-4">
-          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="./img/logovoorpretnombre.png" alt="" width="230" class="mb-3">
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="../img/logovoorpretnombre.png" alt="" width="230" class="mb-3">
             <h6 class="text-uppercase font-weight-bold mb-4 fontJost">Newsletter</h6>
             <div class="p-1 rounded border">
               <div class="input-group">
@@ -235,6 +283,22 @@
     </div>
   </footer>
 
+      <!--BARRA DE NAVEGACIÓN-->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script>
+      $(document).ready(function(){
+        console.log('ready');
+        let scrollVar = 183;
+        $(window).scroll(function(){
+            let x = $(this).scrollTop();
+            if(x > scrollVar){
+                $('#header').addClass('header-scrolled')
+            }else if(x < scrollVar){
+                $('#header').removeClass('header-scrolled')
+            }
+        })
+      })
+      </script>
     <!--Bootstrap con JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 

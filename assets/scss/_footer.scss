@@ -1,55 +1,8 @@
 /*FOOTER DEL PROYECTO*/
-/*
-footer {
-    color: #292f36;
-    background-color: #c1ff9b86;
-    font-size: 17px;
-
-    .footer__banner {
-        background-image: url(/img/footer.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    
-    .footer__info {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-
-        .footer__box {
-            justify-content: center; 
-            font-size: 13px;
-            margin-top: 10px;
-
-            li {
-                list-style: none;
-
-                a {
-                    text-decoration: none;
-                    color: #292f36;
-                }
-            }
-
-            p {
-                font-size: 15px;
-                text-align: center;
-            }
-        }
-    }
-    
-    .footer_copyright {
-        display: flex;
-        justify-content: center;
-
-        p {
-        font-size: x-small;
-        }
-    }
-} */
 
 footer {
     .footer__banner {
-        background-image: url(/img/footer.png);
+        background-image: url("../../img/footer.png");
         background-repeat: no-repeat;
         background-position: bottom;
     }

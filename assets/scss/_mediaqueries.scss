@@ -1,0 +1,334 @@
+/*MEDIA QUERIES*/
+
+// Mobile xxxs
+@media (max-width: 280) {
+
+}
+
+// Mobile xxs
+@media (min-width: 281px) and (max-width: 380px) {
+
+    /*Header*/
+    .myNav {
+        background-color: white;
+    }
+    .banner__titulo {
+        font-size: 4rem;
+    }
+
+    /*Index*/
+    #tituloUno, #tituloDos, #tituloTres, #tituloCuatro {
+        font-size: 1.5rem;
+        padding-top: 2rem;
+    }
+
+    .main__index .main__info .main__box p {
+            font-size: 1rem;
+    }
+
+    .displayMobile {
+        display: none;
+    }
+
+    /*Destinos-mapa*/
+    .destinos__mobile {
+        padding-top: 20vw;
+        display: block;
+    }
+    
+    .destinos__section {
+        display: none;
+    }
+
+    .destinos__icon {
+        display: flex;
+
+        .destinos__iconButton {
+            margin-bottom: 15vw
+        }
+        img {
+            width: 50%;
+        }
+        
+        a {
+            margin-bottom: 100px;
+        }
+    }
+
+    /*Destinos-Continentes*/
+
+        .continente__section {
+            .continente__titulo {
+                font-size: 2rem;
+            }
+        }
+
+        .continente__paises {
+            .continente__paistitulo {
+                padding-top: 50px;
+            }
+
+            .continente__infoTitulo {
+                padding-top: 20px;
+                font-size: 1.2rem;
+            }
+
+            .continente__info {
+                font-size: 0.9rem;
+            }
+
+            img {
+                margin-top: -30px;
+                margin-bottom: 20px;
+            }
+        }
+
+        /*GALERIA*/
+        .flexHijo {
+            flex: 100%
+        }
+
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (min-width: 381px) and (max-width: 575px) {
+
+        /*NAVBAR*/
+        .myNav {
+            background-color: white;
+        }
+        .banner__titulo {
+            font-size: 4.5rem;
+        }
+
+        /*Index*/
+        #tituloUno, #tituloDos, #tituloTres, #tituloCuatro {
+            font-size: 1.5em;
+            padding-top: 3em;
+        }
+
+        .main__index .main__info .main__box p {
+            font-size: 1rem;
+        }
+
+        .displayMobile {
+            display: none;
+        }
+
+        .main__animacion {
+            width: 100%;
+        }
+
+            /*Destinos-mapa*/
+    .destinos__mobile {
+        padding-top: 20vw;
+        display: block;
+    }
+    
+    .destinos__section {
+        display: none;
+    }
+
+    .destinos__icon {
+        display: flex;
+
+        .destinos__iconButton {
+            margin-bottom: 15vw
+        }
+        img {
+            width: 50%;
+        }
+        
+        a {
+            margin-bottom: 100px;
+        }
+    }
+
+    /*Destinos-Continentes*/
+
+    .continente__section {
+        .continente__titulo {
+            font-size: 2rem;
+        }
+    }
+
+    .continente__paises {
+        .continente__paistitulo {
+            padding-top: 50px;
+        }
+
+        .continente__infoTitulo {
+            padding-top: 20px;
+            font-size: 1.2rem;
+        }
+
+        .continente__info {
+            font-size: 0.9rem;
+        }
+
+        img {
+            margin-top: -30px;
+            margin-bottom: 20px;
+        }
+    }
+
+        /*GALERIA*/
+        .galeria__descripcion {
+            font-size: 1em;
+        }
+        .flexHijo {
+            flex: 100%
+        }
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+        /*NAVBAR*/
+        .myNav {
+            background-color: white;
+        }
+        .banner__titulo {
+            font-size: 4.5rem;
+        }
+
+        /*Index*/
+        #tituloUno, #tituloDos, #tituloTres, #tituloCuatro {
+            font-size: 1.5em;
+            padding-top: 3em;
+        }
+
+        .main__index .main__info .main__box p {
+            font-size: 1rem;
+        }
+
+        .displayMobile {
+            display: none;
+        }
+
+        .main__animacion {
+            width: 100%;
+        }
+
+            /*Destinos-mapa*/
+    .destinos__mobile {
+        padding-top: 20vw;
+        display: block;
+    }
+    
+    .destinos__section {
+        display: none;
+    }
+
+    .destinos__icon {
+        display: flex;
+
+        .destinos__iconButton {
+            margin-bottom: 15vw
+        }
+        img {
+            width: 50%;
+        }
+        
+        a {
+            margin-bottom: 100px;
+        }
+    }
+
+        /*Destinos-Continentes*/
+
+        .continente__section {
+            .continente__titulo {
+                font-size: 2rem;
+            }
+        }
+    
+        .continente__paises {
+            .continente__paistitulo {
+                padding-top: 50px;
+            }
+    
+            .continente__infoTitulo {
+                padding-top: 20px;
+                font-size: 1.2rem;
+            }
+    
+            .continente__info {
+                font-size: 0.9rem;
+            }
+    
+            img {
+                margin-top: -30px;
+                margin-bottom: 20px;
+            }
+        }
+
+        /*GALERIA*/
+        .flexHijo {
+            flex: 100%
+        }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+        /*NAVBAR*/
+        .myNav {
+            background-color: white;
+        }
+
+    /*Destinos-Continentes*/
+
+    .continente__section {
+        .continente__titulo {
+            font-size: 2rem;
+        }
+    }
+
+    .continente__paises {
+        .continente__paistitulo {
+            padding-top: 50px;
+        }
+
+        .continente__infoTitulo {
+            padding-top: 20px;
+            font-size: 1.5em;
+        }
+
+        .continente__info {
+            font-size: 1em;
+        }
+
+        img {
+            margin-top: -30px;
+            margin-bottom: 20px;
+        }
+    }
+
+        /*GALERIA*/
+        .flexHijo {
+            flex: 50%
+        }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /*INDEX*/
+    .displayDesktop {
+        display: none;
+    }
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+        /*INDEX*/
+        .displayDesktop {
+            display: none;
+        }
+
+}

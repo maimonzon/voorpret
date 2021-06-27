@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 120vh;
+    min-height: 100vh;
     width: 100%;
 
     .destinos__titulo {
@@ -49,5 +49,23 @@
             fill: #38f09a;
             transition: all .4s;
         }
+        .destinos__map--width {
+            max-width: 100vw;
+        }
     }
+}
+
+.destinos__icon {
+    img {
+        width: 90%;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        text-align: center;
+    }
+}
+
+.destinos__mobile {
+    display: none;
 }

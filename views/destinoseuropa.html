@@ -31,6 +31,8 @@
 
 <body>
 
+  <div class="div__header">
+
     <header id="header"> <!--Este es el encabezado de mi página-->
 
         <nav class="header__nav navbar navbar-expand-lg navbar-light .myNav ">
@@ -63,21 +65,23 @@
     </header>
     
     <section class="banner">
-    
-    <img class="banner__foto" src="../img/portadaeuropa.png" alt="">
-          
+      <img class="banner__videoImagen" src="../img/portadaeuropa.png" alt="">
+      <h1 class="banner__titulo fontJost muyNegrita mayusculaTotal centrado">Europa</h1>
     </section>
+
+  </div>
     
     <!--SECCIÓN DE ICONOS EUROPA-->
+  <a name="paises"></a>
     <section class="continente__section">
     
       <div class="row justify-content-center">
-        <h1 class="continente__titulo fontJost muyNegrita mayusculaTotal centrado">Europa</h1>
+        <h2 class="continente__titulo fontJost muyNegrita mayusculaTotal centrado">Países europeos</h2>
       </div>
     
       <div class="continente__paisesicon row service__content justify-content-center mt-lg-4">
         <div class="col-9 col-md-7 col-lg-3">
-          <img class="paises__icon" src="../svg/italia.svg" width="200" height="200" alt="Icon representativo de Italia">
+          <a href="#italia"><img class="paises__icon" src="../svg/italia.svg" alt="Icon representativo de Italia"></a>
           <span class="row justify-content-center">
             <span class="col-12">
               <a href="#italia" class="btn fontJost btn btn-secondary btn-sm">ITALIA</a>
@@ -86,7 +90,7 @@
         </div>
     
         <div class="col-9 col-md-7 col-lg-3">
-          <img class="paises__icon" src="../svg/grecia.svg" width="200" height="200" alt="Icon representativo de Grecia">
+          <a href="#grecia"><img class="paises__icon" src="../svg/grecia.svg" alt="Icon representativo de Grecia"></a>
           <span class="row justify-content-center">
             <span class="col-12">
               <a href="#grecia" class="btn fontJost btn btn-secondary btn-sm">GRECIA</a>
@@ -95,7 +99,7 @@
         </div>
     
         <div class="col-9 col-md-7 col-lg-3">
-          <img class="paises__icon" src="../svg/alemania.svg" width="200" height="200" alt="Icon representativo de Alemania">
+          <a href="#alemania"><img class="paises__icon" src="../svg/alemania.svg" alt="Icon representativo de Alemania"></a>
           <span class="row justify-content-center">
             <span class="col-12">
               <a href="#alemania" class="btn fontJost btn btn-secondary btn-sm">ALEMANIA</a>
@@ -113,24 +117,29 @@
 <a name="italia"></a>
     <section class="continente__paises color__fondoi"> 
     
-      <h2 class="continente__paistitulo fontRighteous centrado">¡Bienvenidos a Italia!</h2>
+      <h3 class="continente__paistitulo fontRighteous centrado">¡Bienvenidos a Italia!</h3>
     
       <div class="container-fluid">
         <div class="row justify-content-center align-items-center">
     
             <div class="col-12 col-lg-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/FlRwssZYRM0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="continente__iframe ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/FlRwssZYRM0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </div>
     
             <div class="col-12 col-lg-5">
-                <h2 class="izquierda fontRighteous">El país de los faraones</h2>
-                    <p class="justificada fontMonserrat">Con más de cinco mil años, la historia de Egipto es la más larga y documentada del mundo. 
-    
-                    Los primeros habitantes de Egipto se establecieron en las riberas del Nilo huyendo del desierto. Estos primeros indígenas, aislados y sin enemigos cercanos, eran gobernados por seres "divinos" a los que siguieron dinastías semi heróicas: "los descendientes de Horus".
-    
-                    Estos habitantes se fueron organizando en provincias (llamadas Nomos) y con su unificación surgieron dos reinos: el Alto y el Bajo Egipto.. </p>
+                <h4 class="continente__infoTitulo izquierda fontRighteous">El país con el arte al andar</h4>
+                    <p class="continente__info justificada fontMonserrat">Para quienes aman el arte y la cultura, Italia les espera con miles de tesoros; los fanáticos del sol y la playa encontrarán a lo largo de toda la costa unas hermosas playas y para aquellos a quienes les gusta escalar o los paseos por las montañas tendrán las zonas montañosas y toda la belleza de la naturaleza alpina.
+                    Un viaje por Italia es siempre un recorrido artístico. Italia guarda tantos tesoros artísticos extendidos por todo el país que se puede considerar una galería de arte al aire libre. Ningún otro país del mundo puede hacer alarde de los tesoros de arte y de cultura que tiene Italia. Según datos de la UNESCO, más de la mitad del patrimonio histórico-artístico del mundo se encuentra en este país </p>
+
+                    <p class="continente__verMas fontMonserrat">Para más información, haga click en la bandera.</p>
             </div>
             
+            <div class="continente__paisButton">
+              <a target="_blank" href="http://www.italia.it/es/home.html" class="fontJost"><img src="../img/icon-italia.png" alt="" height="60"></a>
+            </div>
+
         </div>
     </div>
     </section>
@@ -139,52 +148,77 @@
 <a name="grecia"></a>
     <section class="continente__paises color__fondoii"> 
     
-      <h2 class="continente__paistitulo fontRighteous centrado">¡Bienvidos a Grecia!</h2>
+      <h3 class="continente__paistitulo fontRighteous centrado">¡Bienvidos a Grecia!</h3>
     
       <div class="container-fluid">
         <div class="row justify-content-center align-items-center">
     
             <div class="col-12 col-lg-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/2X61DHwtVe4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="continente__iframe ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/2X61DHwtVe4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </div>
     
             <div class="col-12 col-lg-5">
-                <h2 class="izquierda fontRighteous">El país de los faraones</h2>
-                    <p class="justificada fontMonserrat"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos earum in mollitia vero omnis quia! Deserunt aut perspiciatis illum quia neque nemo vel ullam, quidem corrupti ratione eaque quo veniam asperiores nulla, veritatis excepturi a nisi suscipit ipsum odit modi! Rem beatae blanditiis eligendi facilis totam et nemo nobis maxime, qui eos commodi facere nulla quod autem fugiat illum veritatis nesciunt laudantium eius? Nulla, vitae? Sint quisquam aspernatur doloribus ipsam aperiam consectetur fugit! Accusamus facilis nihil ad nesciunt facere dolores fugiat provident dolorem, quia expedita veritatis numquam, harum aliquid vitae illum saepe natus iusto dolore quasi repudiandae molestias repellendus!. </p>
+                <h4 class="continente__infoTitulo izquierda fontRighteous">El país con islas para visitar cada día del año</h4>
+                    <p class="continente__info justificada fontMonserrat"> iajar a Grecia es viajar a uno de los países más completos de Europa en cuanto a actividades que se puede realizar ya que tiene de todo, llena de historia y paisajes increíbles. Cuenta con miles de islas paradisíacas en el mediterráneo y posee multitud de áreas arqueológicas y palacios.
+                    Si eres un buen amante del sol no puedes dejar escapar la visita a sus maravillosas playas. Las más bonitas se encuentran entre su multitud de islas, destacando por sus aguas cristalinas y es que Grecia es uno de los países más famosos por su conjunto de islas, superando las 2.000 islas, aunque sólo hay unas 200 islas habitadas aproximadamente.</p>
+
+                    <p class="continente__verMas fontMonserrat">Para más información, haga click en la bandera.</p>
             </div>
             
+            <div class="continente__paisButton">
+              <a target="_blank" href="https://www.grecia.info/es/" class="fontJost"><img src="../img/icon-grecia.png" alt="" height="60"></a>
+            </div>
+
         </div>
     </div>
     </section>
 
 <!--ALEMANIA-->
 <a name="alemania"></a>
-    <section class="continente__paises color__fondoiii"> 
+    <section class="continente__paises color__fondoi"> 
     
-      <h2 class="continente__paistitulo fontRighteous centrado">¡Bienvidos a Alemania!</h2>
+      <h3 class="continente__paistitulo fontRighteous centrado">¡Bienvidos a Alemania!</h3>
     
       <div class="container-fluid">
         <div class="row justify-content-center align-items-center">
     
             <div class="col-12 col-lg-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/IPbzWJNmndY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="continente__iframe ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/IPbzWJNmndY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </div>
     
             <div class="col-12 col-lg-5">
-                <h2 class="izquierda fontRighteous">El país de los faraones</h2>
-                    <p class="justificada fontMonserrat"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos earum in mollitia vero omnis quia! Deserunt aut perspiciatis illum quia neque nemo vel ullam, quidem corrupti ratione eaque quo veniam asperiores nulla, veritatis excepturi a nisi suscipit ipsum odit modi! Rem beatae blanditiis eligendi facilis totam et nemo nobis maxime, qui eos commodi facere nulla quod autem fugiat illum veritatis nesciunt laudantium eius? Nulla, vitae? Sint quisquam aspernatur doloribus ipsam aperiam consectetur fugit! Accusamus facilis nihil ad nesciunt facere dolores fugiat provident dolorem, quia expedita veritatis numquam, harum aliquid vitae illum saepe natus iusto dolore quasi repudiandae molestias repellendus!. </p>
+                <h4 class="continente__infoTitulo izquierda fontRighteous">El país donde nació la hamburguesa</h4>
+                    <p class="continente__info justificada fontMonserrat"> Al pensar en Alemania, lo primero que uno recuerda es aquel gran muro de hierro que dividió el país durante años, dejando una gran impronta en la historia no solo de los alemanes sino del mundo entero, pero Alemania es mucho más que el recuerdo de una muralla. Sus hermosas ciudades ofrecen opciones para todos los gustos.
+                      
+                    Desde los Alpes al sur del país, pasando por las colinas de Alemania central hasta llegar a la costa del mar Báltico en el norte, Alemania ofrece un paisaje de cuento, con hermosos barrios antiguos, casas de la época medieval, iglesias góticas y pequeños vecindarios. </p>
+
+                    <p class="continente__verMas fontMonserrat">Para más información, haga click en la bandera.</p>
             </div>
             
+            <div class="continente__paisButton">
+              <a target="_blank" href="https://www.germany.travel/es/home.html" class="fontJost"><img src="../img/icon-alemania.png" alt="" height="60"></a>
+            </div>
+
         </div>
     </div>
     </section>
+
+<!--Button up-->
+<div>
+  <a href="#paises" class="button__up"> <i class="fas fa-chevron-circle-up fa-2x"></i> </a>
+  </div>
+
 
 <!--INICIO DEL FOOTER-->
 <footer class="bg-white">
   <div class="footer__banner">
     <div class="container py-5">
       <div class="row py-4">
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="./img/logovoorpretnombre.png" alt="" width="230" class="mb-3">
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="../img/logovoorpretnombre.png" alt="" width="230" class="mb-3">
           <h6 class="text-uppercase font-weight-bold mb-4 fontJost">Newsletter</h6>
           <div class="p-1 rounded border">
             <div class="input-group">
@@ -233,6 +267,22 @@
   </div>
 </footer>
 
+      <!--BARRA DE NAVEGACIÓN-->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script>
+      $(document).ready(function(){
+        console.log('ready');
+        let scrollVar = 183;
+        $(window).scroll(function(){
+            let x = $(this).scrollTop();
+            if(x > scrollVar){
+                $('#header').addClass('header-scrolled')
+            }else if(x < scrollVar){
+                $('#header').removeClass('header-scrolled')
+            }
+        })
+      })
+      </script>
     <!--Bootstrap con JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 

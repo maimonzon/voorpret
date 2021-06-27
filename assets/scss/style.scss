@@ -1,3 +1,32 @@
+/*VIDEO Y FOTOS - BANNERS*/
+
+.banner {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.banner__videoImagen {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner__titulo  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7em;
+    margin-bottom: 50px;
+    color: white;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.5);
+}
+
 /*IMPORT*/
 
 @import "tipografia";
@@ -11,16 +40,4 @@
 @import "noticias";
 @import "contacto";
 @import "error";
-
-/*VIDEO Y FOTOS - BANNERS*/
-
-.banner {
-    .banner__video {
-        height: 100%;
-        width: 100%;
-    }
-
-    .banner__foto {
-        height: 100vh;
-    }
-}
+@import "mediaqueries";
