@@ -18,9 +18,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 7rem;
+  font-size: 7em;
   margin-bottom: 50px;
-  color: white; }
+  color: white;
+  text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5); }
 
 /*IMPORT*/
 /*TIPOGRAFIA*/
@@ -69,19 +70,17 @@ header {
   z-index: 1020;
   left: 0;
   right: 0;
-  background-color: #4747472d; }
-  header .header__nav {
-    height: 8vh; }
-    header .header__nav .navbar-collapse {
-      flex-grow: 0; }
-      header .header__nav .navbar-collapse ul {
-        list-style: none; }
-        header .header__nav .navbar-collapse ul a {
-          text-decoration: none; }
-          header .header__nav .navbar-collapse ul a:hover {
-            color: white;
-            background-color: #ffffffc7;
-            transition: all .5s; }
+  background-color: #ffffff41; }
+  header .header__nav .navbar-collapse {
+    flex-grow: 0; }
+    header .header__nav .navbar-collapse ul {
+      list-style: none; }
+      header .header__nav .navbar-collapse ul a {
+        text-decoration: none; }
+        header .header__nav .navbar-collapse ul a:hover {
+          color: white;
+          background-color: #ffffffc7;
+          transition: all .5s; }
 
 .header-scrolled {
   background-color: white;
@@ -114,17 +113,17 @@ footer .footer__copy {
 /*ARCHIVO INDEX*/
 .main__index .main__info .main__box {
   letter-spacing: .17px;
-  min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center; }
   .main__index .main__info .main__box .main__texto {
     margin-left: 20px; }
   .main__index .main__info .main__box h2 {
-    font-size: 2.5rem; }
+    font-size: 2.5em; }
   .main__index .main__info .main__box p {
     color: #292f36;
-    font-size: 1.2rem; }
+    font-size: 1.2em; }
   .main__index .main__info .main__box .main__animacion {
     width: 45%; }
   .main__index .main__info .main__box #tituloUno {
@@ -172,6 +171,17 @@ footer .footer__copy {
     .destinos__section .destinos__map .destinos__map--width {
       max-width: 100vw; }
 
+.destinos__icon img {
+  width: 90%; }
+
+.destinos__icon a {
+  text-decoration: none;
+  color: black;
+  text-align: center; }
+
+.destinos__mobile {
+  display: none; }
+
 /*HTML CONTINENTES*/
 .continente__section {
   min-height: 100vh;
@@ -195,10 +205,24 @@ footer .footer__copy {
   justify-content: center;
   text-align: center; }
   .continente__paises .continente__paistitulo {
-    padding-top: 15px;
-    padding-bottom: 30px; }
+    padding-top: 25px;
+    padding-bottom: 20px; }
+  .continente__paises .continente__verMas {
+    color: grey;
+    font-size: small; }
   .continente__paises .continente__paisButton {
-    padding-top: 40px; }
+    padding-top: 20px; }
+
+.button__up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  text-decoration: none;
+  color: #141414; }
+  .button__up:hover {
+    color: #00798f;
+    transition: all .5s; }
 
 .color__fondoi {
   background-color: #f8f8f8; }
@@ -208,13 +232,13 @@ footer .footer__copy {
 
 /*HTML GALERIA*/
 .section__galeria {
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center; }
+  flex-direction: column; }
+  .section__galeria .galeria__descripcion {
+    padding: 20px; }
 
-.tituloGaleria h1 {
+.tituloGaleria h2 {
   margin-top: 100px;
   margin-bottom: 20px; }
 
@@ -246,33 +270,16 @@ footer .footer__copy {
 
 /*-----------------------------*/
 /*HTML CONTACTO*/
-.contactanos__section--width {
-  width: 600px;
-  background: linear-gradient(to bottom right, blue, white);
-  padding: 50px;
-  margin-top: 100px;
-  border-radius: 15px; }
+.contactanos__section .contactanos__titulo {
+  margin: 2rem; }
 
-.contactanos__section {
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
-  .contactanos__section .contactanos__titulo {
-    margin-bottom: 20px; }
-  .contactanos__section .contactanos__parrafo {
-    text-align: center;
-    justify-content: center;
-    height: auto;
-    width: 100%; }
-  .contactanos__section .contactanos__form {
-    border: 1px solid #000;
-    width: max-content;
-    margin: 30px 0; }
+.contactanos__section .contactanos__parrafo {
+  height: auto;
+  width: 100%;
+  text-align: justify; }
 
-input#button__form {
-  background-color: aquamarine;
-  border: none;
-  padding: 5px; }
+.contactanos__section .contact__gif {
+  width: 100%; }
 
 /*ERROR 404 HTML*/
 .error__section {
@@ -283,11 +290,36 @@ input#button__form {
   justify-content: center;
   align-items: center; }
 
-/*MEDIA*/
+/*MEDIA QUERIES*/
 @media (min-width: 281px) and (max-width: 380px) {
-  /*Destinos-Continentes*/
+  /*Header*/
+  .myNav {
+    background-color: white; }
   .banner__titulo {
-    font-size: 5rem; }
+    font-size: 4rem; }
+  /*Index*/
+  #tituloUno, #tituloDos, #tituloTres, #tituloCuatro {
+    font-size: 1.5rem;
+    padding-top: 2rem; }
+  .main__index .main__info .main__box p {
+    font-size: 1rem; }
+  .displayMobile {
+    display: none; }
+  /*Destinos-mapa*/
+  .destinos__mobile {
+    padding-top: 20vw;
+    display: block; }
+  .destinos__section {
+    display: none; }
+  .destinos__icon {
+    display: flex; }
+    .destinos__icon .destinos__iconButton {
+      margin-bottom: 15vw; }
+    .destinos__icon img {
+      width: 50%; }
+    .destinos__icon a {
+      margin-bottom: 100px; }
+  /*Destinos-Continentes*/
   .continente__section .continente__titulo {
     font-size: 2rem; }
   .continente__paises .continente__paistitulo {
@@ -304,17 +336,129 @@ input#button__form {
   .flexHijo {
     flex: 100%; } }
 
-@media (min-width: 381px) and (max-width: 575.98px) {
+@media (min-width: 381px) and (max-width: 575px) {
+  /*NAVBAR*/
+  .myNav {
+    background-color: white; }
+  .banner__titulo {
+    font-size: 4.5rem; }
+  /*Index*/
+  #tituloUno, #tituloDos, #tituloTres, #tituloCuatro {
+    font-size: 1.5em;
+    padding-top: 3em; }
+  .main__index .main__info .main__box p {
+    font-size: 1rem; }
+  .displayMobile {
+    display: none; }
+  .main__animacion {
+    width: 100%; }
+  /*Destinos-mapa*/
+  .destinos__mobile {
+    padding-top: 20vw;
+    display: block; }
+  .destinos__section {
+    display: none; }
+  .destinos__icon {
+    display: flex; }
+    .destinos__icon .destinos__iconButton {
+      margin-bottom: 15vw; }
+    .destinos__icon img {
+      width: 50%; }
+    .destinos__icon a {
+      margin-bottom: 100px; }
+  /*Destinos-Continentes*/
+  .continente__section .continente__titulo {
+    font-size: 2rem; }
+  .continente__paises .continente__paistitulo {
+    padding-top: 50px; }
+  .continente__paises .continente__infoTitulo {
+    padding-top: 20px;
+    font-size: 1.2rem; }
+  .continente__paises .continente__info {
+    font-size: 0.9rem; }
+  .continente__paises img {
+    margin-top: -30px;
+    margin-bottom: 20px; }
   /*GALERIA*/
+  .galeria__descripcion {
+    font-size: 1em; }
   .flexHijo {
     flex: 100%; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  /*NAVBAR*/
+  .myNav {
+    background-color: white; }
+  .banner__titulo {
+    font-size: 4.5rem; }
+  /*Index*/
+  #tituloUno, #tituloDos, #tituloTres, #tituloCuatro {
+    font-size: 1.5em;
+    padding-top: 3em; }
+  .main__index .main__info .main__box p {
+    font-size: 1rem; }
+  .displayMobile {
+    display: none; }
+  .main__animacion {
+    width: 100%; }
+  /*Destinos-mapa*/
+  .destinos__mobile {
+    padding-top: 20vw;
+    display: block; }
+  .destinos__section {
+    display: none; }
+  .destinos__icon {
+    display: flex; }
+    .destinos__icon .destinos__iconButton {
+      margin-bottom: 15vw; }
+    .destinos__icon img {
+      width: 50%; }
+    .destinos__icon a {
+      margin-bottom: 100px; }
+  /*Destinos-Continentes*/
+  .continente__section .continente__titulo {
+    font-size: 2rem; }
+  .continente__paises .continente__paistitulo {
+    padding-top: 50px; }
+  .continente__paises .continente__infoTitulo {
+    padding-top: 20px;
+    font-size: 1.2rem; }
+  .continente__paises .continente__info {
+    font-size: 0.9rem; }
+  .continente__paises img {
+    margin-top: -30px;
+    margin-bottom: 20px; }
   /*GALERIA*/
   .flexHijo {
     flex: 100%; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  /*NAVBAR*/
+  .myNav {
+    background-color: white; }
+  /*Destinos-Continentes*/
+  .continente__section .continente__titulo {
+    font-size: 2rem; }
+  .continente__paises .continente__paistitulo {
+    padding-top: 50px; }
+  .continente__paises .continente__infoTitulo {
+    padding-top: 20px;
+    font-size: 1.5em; }
+  .continente__paises .continente__info {
+    font-size: 1em; }
+  .continente__paises img {
+    margin-top: -30px;
+    margin-bottom: 20px; }
   /*GALERIA*/
   .flexHijo {
     flex: 50%; } }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /*INDEX*/
+  .displayDesktop {
+    display: none; } }
+
+@media (min-width: 1200px) {
+  /*INDEX*/
+  .displayDesktop {
+    display: none; } }

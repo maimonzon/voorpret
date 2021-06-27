@@ -35,7 +35,7 @@
 
     <nav class="header__nav navbar navbar-expand-lg navbar-light .myNav ">
         <div class="container-fluid">
-          <a href="./index.html"><img src="../img/logovoorpretsombreado.png" width="100px" alt=""></a>
+          <a href="../index.html"><img src="../img/logovoorpretsombreado.png" width="100px" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -68,27 +68,39 @@
 </section>
   </div>
 
-<section class="contactanos__section">
-  <div class="container-fluid">
-    <div class="row justify-content-center align-items-center">
-      <div class="col-12 col-lg-6">
-        <div class="contactanos__section--width">
-          <h1 class="contactanos__titulo fontJost muyNegrita mayusculaTotal centrado">¡Contactanos!</h1>
-              <p class="contactanos__parrafo fontMonserrat negrita textoN">¿El país al que te interesa viajar no está en la página? ¡Mandanos un mensaje! Intentaremos responderte a la brevedad y ayudarte con toda la información necesaria.</p>
+<section class="contactanos__section py-5">
+  <div class="container">
+    <h2 class="contactanos__titulo fontJost muyNegrita mayusculaTotal centrado ">¡Viajá con conocimiento!</h2>
+    <p class="contactanos__parrafo fontMonserrat"> Si el país que te interesa conocer en tu próximo destino no se encuentra disponible, ¡no te preocupes! Podes llenar el siguiente formulario para ponernos en contacto con vos y ayudarte a encontrar todo lo que necesitás para estar informada y viajar sin miedo. ¡Así estaremos además ayudando a más viajeros!</p>
+</div>
 
-              <form class="fontMonserrat">
+  <div class="container fontJost">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-6" >
+          <img class="contact__gif" src="../img/contact-gif.gif" alt="">
+        </div>
+        <div class="col-md-6">
+          <form  action="">  
+            <div class="row">
+              <div class="col-lg-6">
                 <div class="form-group">
-                  <label for="exampleFormControlInput1">Nombre</label>
-                  <input type="name" class="form-control" id="exampleFormControlInput1">
+                  <input type="text" class="form-control mt-2" placeholder="Nombre" required>
                 </div>
+              </div>
+              <div class="col-lg-6">
                 <div class="form-group">
-                  <label for="exampleFormControlInput1">Mail de contacto</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1">
+                  <input type="email" class="form-control mt-2" placeholder="Mail" required>
                 </div>
+              </div>
+              <div class="col-lg-6">
                 <div class="form-group">
-                  <label for="exampleFormControlSelect1">¿Qué destino es de su interés para el próximo viaje?</label>
-                  <select class="form-control" id="exampleFormControlSelect1">
-                    <option>Elija un continente</option>
+                  <input type="number" class="form-control mt-2" placeholder="Teléfono" required>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <select class="form-control mt-2">
+                    <option class="text-secondary">Elija su continente</option>
                     <option>África</option>
                     <option>América</option>
                     <option>Asia</option>
@@ -96,40 +108,33 @@
                     <option>Oceanía</option>
                   </select>
                 </div>
+              </div>
+              <div class="col-12">
                 <div class="form-group">
-                  <label for="exampleFormControlSelect2">¿Está planeando su primer viaje?</label>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                    <label class="form-check-label" for="exampleRadios1">
-                      Sí
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">
-                      No
-                    </label>
-                  </div>
+                  <textarea class="form-control mt-2" id="exampleFormControlTextarea1" placeholder="Escriba su mensaje indicando país al que desea viajar y la información que busca sobre el mismo." rows="4" required></textarea>
                 </div>
-                <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Escriba su mensaje indicando país al que desea viajar y la información que busca sobre el mismo.</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="col-12">
+              <div class="form-group">
+                <div class="form-check mt-2">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                  <label class="form-check-label" for="invalidCheck2">
+                    Desea recibir nuestro newsletter
+                  </label>
                 </div>
-                <div>¿Suscribirte al newsletter?
-                  <input type="checkbox" name="newsletter" value="1"> </div>
-                  <br><br>
-                  <input id="buttom__form" type="reset" value="Borrar">
-                  <input id="buttom__form" type="submit" value="Enviar">
-              </form>
+              </div>
+              </div>
+              <div class="col-12 justify-content-center centrado">
+                <button class="btn btn-dark mt-4 mayusculaTotal fontJost" type="submit">Enviar</button>
+                <button class="btn btn-dark mt-4 mayusculaTotal fontJost" type="reset">Borrar</button>
+              </div>
+            </div>
+          </form>
+          </div>
         </div>
-      </div>
-
-      <div class="col-12 col-lg-4">
-        <img class="img-fluid" src="../img/noticia4.jpg" alt="">
-      </div>
-    </div>
   </div>
 </section>
+
 
 <!--INICIO DEL FOOTER-->
 <footer class="bg-white">

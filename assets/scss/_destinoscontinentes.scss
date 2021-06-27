@@ -30,14 +30,35 @@
     text-align: center;
 
     .continente__paistitulo {
-        padding-top: 15px;
-        padding-bottom: 30px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    .continente__verMas {
+        color: grey;
+        font-size: small;
     }
 
     .continente__paisButton {
-        padding-top: 40px;
+        padding-top: 20px;
     }
 }
+
+.button__up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+
+    &:hover {
+        color: rgb(0, 121, 143);
+        transition: all .5s;
+    }
+    }
+
+
 
 $mapa: (
     fondoi: rgb(248, 248, 248),

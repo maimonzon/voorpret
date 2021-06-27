@@ -1,42 +1,18 @@
 /*HTML CONTACTO*/
-.contactanos__section--width {
-    width: 600px;
-    background: linear-gradient(to bottom right, blue, white);
-    padding: 50px;
-    margin-top: 100px;
-    border-radius: 15px;
-}
-
 
 .contactanos__section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 
     .contactanos__titulo {
-        margin-bottom: 20px;
+        margin: 2rem;
+    }
+    .contactanos__parrafo {
+        height: auto;
+        width: 100%;
+        text-align: justify;
     }
 
-    .contactanos__parrafo {
-        text-align: center;
-        justify-content: center;
-        height: auto;
+    .contact__gif {
         width: 100%;
     }
 
-        .contactanos__form {
-            border: 1px solid #000;
-            width: max-content;
-            margin: 30px 0;
-        }
-    }
-
-
-    // button form
-    input#button__form {
-        background-color: aquamarine;
-        border: none;
-        padding: 5px;
-    }
-
-    
+}

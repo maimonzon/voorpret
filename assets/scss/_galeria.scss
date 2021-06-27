@@ -1,14 +1,19 @@
 /*HTML GALERIA*/
 
 .section__galeria {
-    min-height: 100vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
+
+
+    .galeria__descripcion {
+        padding: 20px;
+    }
 }
 
-.tituloGaleria h1 {
+
+
+.tituloGaleria h2 {
     margin-top: 100px;
     margin-bottom: 20px;
 }

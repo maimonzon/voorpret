@@ -54,3 +54,18 @@
         }
     }
 }
+
+.destinos__icon {
+    img {
+        width: 90%;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        text-align: center;
+    }
+}
+
+.destinos__mobile {
+    display: none;
+}
