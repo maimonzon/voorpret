@@ -23,3 +23,8 @@ const destino3 = new Viaje (
     "https://eitrawmaterials.eu/wp-content/uploads/2018/12/dreamstime_l_103810679-1024x647.jpg",
     "Visita la cuna de la civilización. Una mezcla de historia y paraísos, todo en este destino Europeo."
 )
+
+
+const destinosHTML = document.getElementById('destinosJS')
+console.log( destinosHTML ) //aparece como null ???
+
