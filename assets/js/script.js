@@ -95,4 +95,3 @@ for (const producto of productosTurismo) {
     document.getElementById("cards").append(cardProd);
 
     cardProd.classList.add("card")
-}
