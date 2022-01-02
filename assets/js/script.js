@@ -27,33 +27,33 @@ class Producto {
 //agrego los productos
 
 const producto1 = new Producto(
-    1,
+    1001,
     "valija",
-    "https://i.imgur.com/iYilA0H.jpeg",
+    "https://i.pinimg.com/564x/ed/69/02/ed69028d2c5b88730e2f20b6bfb956d0.jpg",
     20500, 
     true,
     "Alto 73- Ancho 48 - Profundidad 28 cm + 5 cm de fuelle expandible. Peso 4.2 kg");
 
 const producto2 = new Producto (
-    2,
+    1002,
     "carry on", 
-    "https://i.imgur.com/QRrqK8R.jpeg",
+    "https://i.pinimg.com/564x/9a/81/f9/9a81f909c8307fc246b7d74e6b821954.jpg",
     15000, 
     true,
-    "Alto 52 - Ancho 37 - Profundidad 23 cm + 5 cm de fuelle expandible.  Peso 2.5kg  ");
+    "Alto 52 - Ancho 37 - Profundidad 23 cm + 5 cm de fuelle expandible.  Peso 2.5kg");
 
 const producto3 = new Producto (
-    3,
+    1003,
     "handbag",
-    "https://i.imgur.com/Z0Y69Ai.jpeg",
+    "https://i.pinimg.com/564x/1b/d6/43/1bd6431b4db17d75b959a258bceb306f.jpg",
     9000, 
     true,
     "Acceso superior. Bolsillo frontal.Correas regulables. Alto 28 - Ancho 50.");
 
 const producto4 = new Producto (
-    4, 
+    1004, 
     "mochila", 
-    "https://i.imgur.com/ywb48BP.jpeg",
+    "https://i.pinimg.com/564x/2a/ca/1a/2aca1a73bab7b83252c731f7528e3e66.jpg",
     7500, 
     true,
     "Acceso superior. Bolsillo frontal con organizador interno. Bolsillos laterales.Porta Notebook.");
@@ -74,16 +74,18 @@ const productosTurismo = JSON.parse(localStorage.getItem("productos"));
 for (const producto of productosTurismo) {
     let cardProd = document.createElement("div")
 
+    cardProd.className = "card n3";
+    cardProd.style = "width: 18rem;";
     cardProd.innerHTML = 
     `
     <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="${producto.foto}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"> ${producto.nombre} </h5>
           <p class="card-text"> ${producto.descrip} </p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"> ${producto.id} </li>
+          <li class="list-group-item"> Código: ${producto.id} </li>
           <li class="list-group-item"> $ ${producto.precio} </li>
         </ul>
         <div class="card-body">
