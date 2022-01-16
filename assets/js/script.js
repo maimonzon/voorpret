@@ -1,11 +1,3 @@
-//Animacion del carrito
-
-const comprasBtn = document.querySelector('.btnCarrito');
-comprasBtn.addEventListener('click', function () {
-    document.getElementById('mySidebar').classList.toggle('active')
-})
-
-
 
 //defino la clase del producto
 
