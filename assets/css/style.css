@@ -494,6 +494,16 @@ footer .footer__copy {
   right: -400px;
 }
 
+.cart {
+  margin-top: 40px;
+}
+
+.clear-cart {
+  justify-content: flex-end;
+  size: 30px;
+}
+
+/* Código JS de las cards */
   .card {
     display: flex;
     flex-direction: column;
