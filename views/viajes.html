@@ -21,7 +21,6 @@
         <!--FONTAWESOME iconos-->
         <script src="https://kit.fontawesome.com/4926abe3be.js" crossorigin="anonymous"></script>
 
-
     </head>
 <body>
 
@@ -53,7 +52,7 @@
                                 <a class="nav-link" href="./contacto.html">Contacto</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="./contacto.html">Shop</a>
+                                <a class="nav-link active" href="/views/viajes.html">Shop</a>
                             </li>
                         </ul>
                     </div>
@@ -74,22 +73,6 @@
 
 </section>
 
-<!--Sidebar
-
-    <div id="sidebar">
-        <div class="toggle-btn">
-        <span>&#9776</span>
-        </div>
-        <ul>
-        <li>
-            <img src="img/logo.jpg" alt="Logo Fazt" class="logo">
-        </li>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-        </ul>
-    </div>-->
-
     <!--Button buy-->
     <div>
         <button class="btnCarrito" id="btnBuy" onclick="openNav()">
@@ -100,17 +83,14 @@
     </div>
     
     <div class="sidebar active" id="mySidebar">
-        <div class="container-fluid text-center">
-
-          <h3 class="cart">Ítems seleccionados</h3>
-          <div id="carrito" class="container-fluid text-center"></div>
-          <div class="cart-footer">
-            <button class="clear-cart banner-btn" id="clear">
-              Limpiar carrito
-            </button>
-          </div>
+        <div class="contenido container-fluid text-center">
+            <h3 class="cart fontJost mayusculaTotal">Carrito</h3>
+            <div id="carrito" class="container-fluid text-center"></div>
+            <div class="cart-footer">
+            <button class="clear-cart btn btn-light banner-btn fontJost mayusculaTotal" id="clear"> Limpiar carrito </button>
+            </div>
         </div>
-      </div>
+    </div>
 
 
 
@@ -188,9 +168,11 @@
             </div>
         </footer>
 
-    <!--Bootstrap con JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-    <!--JS-->
-    <script src="/assets/js/script.js"></script>
+    <!--BARRA DE NAVEGACIÓN-->
+
+        <!--JS-->
+        <script src="/assets/js/script.js"></script>
+        <script src="/assets/js/gral.js"></script>
+
 </body>
 </html>
