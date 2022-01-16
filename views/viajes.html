@@ -47,13 +47,13 @@
                                 <a class="nav-link" href="./galeria.html">Galeria</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="./noticias.html">Noticias</a>
+                                <a class="nav-link " href="./noticias.html">Noticias</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./contacto.html">Contacto</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./contacto.html">Shop</a>
+                                <a class="nav-link active" href="./contacto.html">Shop</a>
                             </li>
                         </ul>
                     </div>
@@ -63,24 +63,56 @@
 
         <section class="banner">
             <video class="banner__videoImagen" src="../img/voorpretvideo.mp4" autoplay muted loop></video>
-            <h1 class="banner__titulo fontJost muyNegrita mayusculaTotal">VIAJES</h1>
+            <h1 class="banner__titulo fontJost muyNegrita mayusculaTotal">Shop</h1>
         </section>
     </div>
 
 <section class="contactanos__section py-5">
 
     <h2 class="contactanos__titulo fontJost muyNegrita mayusculaTotal centrado">Encontrá todo para tu viaje</h2>
-    <div id="cards" class="row justify-content-center text-center container"></div>
+    <div id="cards" class="row justify-content-center text-center "></div>
 
 </section>
 
-        <!--Button buy-->
-        <div>
-            <button class="btnCarrito" onclick="openNav()">
-                <i class="fas fa-shopping-cart botoncito"></i>
-                <span class="badge badge-warning" id="lblCartCount"> 0 </span>
-            </button>
+<!--Sidebar
+
+    <div id="sidebar">
+        <div class="toggle-btn">
+        <span>&#9776</span>
         </div>
+        <ul>
+        <li>
+            <img src="img/logo.jpg" alt="Logo Fazt" class="logo">
+        </li>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        </ul>
+    </div>-->
+
+    <!--Button buy-->
+    <div>
+        <button class="btnCarrito" id="btnBuy" onclick="openNav()">
+            <i class="fas fa-shopping-cart botoncito"></i>
+            <span class="badge badge-warning"
+            id="lblCartCount"> 0 </span>
+        </button>
+    </div>
+    
+    <div class="sidebar active" id="mySidebar">
+        <div class="container-fluid text-center">
+
+          <h3 class="cart">Ítems seleccionados</h3>
+          <div id="carrito" class="container-fluid text-center"></div>
+          <div class="cart-footer">
+            <button class="clear-cart banner-btn" id="clear">
+              Limpiar carrito
+            </button>
+          </div>
+        </div>
+      </div>
+
+
 
         <!--INICIO DEL FOOTER-->
         <footer class="bg-white">
